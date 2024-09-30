@@ -1,0 +1,21 @@
+# Node modules
+/client/node_modules
+
+# Build files
+/client/build
+/client/dist
+
+# Server files
+/server/logs
+/server/temp
+
+# Package lock files
+/package-lock.json
+
+# IDE files
+/.idea
+/.vscode
+
+# OS files
+/.DS_Store
+/Thumbs.db

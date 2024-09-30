@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Color Variables */
+:root {
+  --raisin-black: #211f20; /* Dark, almost black */
+  --zapier-orange: #ff4f00; /* Bright orange */
+  --beige-tan: #b6a28f; /* Soft beige/tan */
+  --off-white: #f2f0eb; /* Off white */
+  --dark-gray: #0e0e0e; /* Very dark gray */
+  --light-beige: #dfd8c4; /* Light beige */
+  --slate-gray: #202930; /* Muted slate gray */
+  --header: #57312e; /*color for the header */
+}
+
+/* Apply Cormorant Garamond font to the body */
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+}
