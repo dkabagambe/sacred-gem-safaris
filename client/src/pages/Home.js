@@ -109,8 +109,11 @@ const Home = () => {
         </p>
         <div className="map-container">
           <img src={map} alt="Map of East Africa" />
+          <h2>4 countries</h2>
+          <hr></hr>
         </div>
       </section>
+
       <SafariSection />
       <ExperienceSection />
       <WildlifeSection />

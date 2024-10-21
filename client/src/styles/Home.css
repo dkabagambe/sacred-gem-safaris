@@ -237,6 +237,7 @@
 
 .map-container {
   margin-top: 20px;
+  position: relative;
 }
 
 .map-container img {
@@ -245,4 +246,18 @@
   height: auto;
   border-radius: 8px;
   object-fit: contain;
+}
+.map-container h2 {
+  text-transform: uppercase;
+  padding-top: 20px; /* Adds space between border and text */
+  word-spacing: 10px;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 35px;
+}
+.map-container hr {
+  border: none;
+  border-top: 1px solid #fff;
+  width: 90%;
+  margin: 20px 40px;
 }
