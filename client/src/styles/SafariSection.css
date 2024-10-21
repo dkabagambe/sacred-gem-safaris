@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.safari-section {
+  max-width: 1200px; /* Limit the width for large screens */
+  margin: auto; /* Center the section */
+  padding: 20px; /* Inner padding for the section */
+}
+
+section {
+  background-color: #fff; /* White background for sections */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 40px; /* Space between sections */
+  padding: 20px; /* Inner content padding */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.section-title {
+  font-size: 2rem; /* Title size */
+  text-align: center; /* Center title */
+  margin-bottom: 10px; /* Space below title */
+}
+
+.section-text {
+  font-size: 1rem; /* Text size */
+  text-align: center; /* Center text */
+  line-height: 1.5; /* Line height for readability */
+  margin-bottom: 20px; /* Space below text */
+}
+
+.section-image,
+.impact-image,
+.offer-image,
+.nature-image {
+  width: 100%; /* Responsive images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+  margin: 20px 0; /* Space above and below images */
+}
+.section-image > img {
+  width: 100%;
+  object-fit: cover;
+}
+.link {
+  display: inline-block; /* Block-like element */
+  padding: 8px 15px; /* Padding for the link */
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* No underline */
+  border-radius: 5px; /* Rounded corners */
+  margin: 10px 0; /* Margin above and below */
+}
+
+.link:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.country-list {
+  display: flex; /* Flexbox for countries */
+  justify-content: space-around; /* Space between countries */
+}
+
+.country {
+  text-align: center; /* Center text */
+}
+
+.country img {
+  width: 100%; /* Responsive images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .country-list {
+    flex-direction: column; /* Stack countries vertically on small screens */
+  }
+
+  .section-title {
+    font-size: 1.5rem; /* Smaller titles on mobile */
+  }
+
+  .section-text {
+    font-size: 0.9rem; /* Smaller text on mobile */
+  }
+}

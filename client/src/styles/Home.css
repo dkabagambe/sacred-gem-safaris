@@ -104,64 +104,144 @@
 
 /* New section styles */
 .new-content {
-  background-color: #1e1e1e;
+  background-color: var(--slate-gray);
   color: white;
   padding: 50px 20px;
+  margin-top: -80px;
+  margin-bottom: -40px;
 }
 
-.image-grid {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
 }
 
-.experience-image {
-  width: 50%;
-  height: auto;
+/* Container for the top image */
+.top-image-container {
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.top-image {
+  width: 80%;
+  height: 100%;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+/* Container for the bottom image */
+.bottom-image-container {
+  position: absolute;
+  bottom: -70%; /* Adjusting the overlap for the bottom image */
+  right: 0; /* Align the bottom image to the right */
+  width: 35%; /* Adjust the width of the second image */
+}
+
+.bottom-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: contain;
 }
 
 .text-content {
-  margin-top: 20px;
+  margin-top: 600px; /* Push the text content down after the images */
+}
+.text-content h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 2;
 }
 
 .text-content h3 {
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: 400;
 }
 
 .text-content p {
   font-size: 1.2rem;
   line-height: 1.8;
+  margin: 20px auto;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .top-image-container,
+  .bottom-image-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bottom-image-container {
+    top: 0;
+    width: 100%;
+  }
+  .top-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .text-content {
+    margin-top: 20px;
+  }
+  .text-content h2 {
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+  }
 }
 
 /* Section for "Discover East Africa" */
 .iconic-destination {
-  background-color: #d4c1a1;
-  color: #333;
+  background-color: var(--beige-tan);
+  color: #ffffff;
   text-align: center;
   padding: 50px 20px;
 }
-
+.iconic-destination h5 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
 .iconic-destination h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+}
+.iconic-destination h2:first-child {
+  width: 80%;
+}
+
+.iconic-destination h2:last-child {
+  width: 100%;
 }
 
 .iconic-destination p {
   font-size: 1.2rem;
   max-width: 600px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .map-container {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .map-container img {
-  width: 80%;
-  max-width: 600px;
+  width: 100%;
+  max-width: 1000px;
   height: auto;
   border-radius: 8px;
   object-fit: contain;

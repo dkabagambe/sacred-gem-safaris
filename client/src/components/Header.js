@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
-import logo from "../assets/img/logo1.png";
+import logo from "../assets/img/logo.PNG";
 import { RiCloseCircleLine } from "react-icons/ri";
 
 const Header = () => {

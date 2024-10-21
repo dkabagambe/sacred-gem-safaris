@@ -1,0 +1,64 @@
+.wildlife-section {
+  max-width: 1200px; /* Limit width */
+  margin: auto; /* Center the section */
+  padding: 20px; /* Inner padding */
+}
+
+section {
+  margin-bottom: 40px; /* Space between sections */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  background-color: white; /* Set background to white */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.section-title {
+  font-size: 2.2rem; /* Consistent title size */
+  margin-bottom: 10px; /* Space below title */
+  text-align: center; /* Centered title */
+}
+
+.explore-gallery,
+.view-experiences,
+.view-birding {
+  display: inline-block; /* Block-like element */
+  padding: 12px 24px; /* Padding for buttons */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text color */
+  text-decoration: none; /* No underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background transition */
+  margin: 10px 0; /* Vertical margin */
+}
+
+.explore-gallery:hover,
+.view-experiences:hover,
+.view-birding:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+inspire-image,
+.nature-image,
+.why-travel-image,
+.birding-image {
+  width: 100%; /* Responsive images */
+  border-radius: 8px; /* Rounded corners for images */
+  margin-top: 15px; /* Space above images */
+}
+
+p {
+  font-size: 1.1rem; /* Font size for paragraphs */
+  line-height: 1.6; /* Line height for readability */
+  margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.7rem; /* Smaller titles on mobile */
+  }
+
+  p {
+    font-size: 0.9rem; /* Smaller text on mobile */
+  }
+}
