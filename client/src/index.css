@@ -15,6 +15,7 @@
 
 /* Apply Cormorant Garamond font to the body */
 body {
+  all: unset;
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
 }

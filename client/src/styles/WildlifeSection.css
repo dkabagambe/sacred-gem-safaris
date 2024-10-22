@@ -46,7 +46,7 @@ inspire-image,
   margin-top: 15px; /* Space above images */
 }
 
-p {
+.untamed-nature > p {
   font-size: 1.1rem; /* Font size for paragraphs */
   line-height: 1.6; /* Line height for readability */
   margin-bottom: 10px; /* Bottom margin */
@@ -58,7 +58,7 @@ p {
     font-size: 1.7rem; /* Smaller titles on mobile */
   }
 
-  p {
+  .untamed-nature > p {
     font-size: 0.9rem; /* Smaller text on mobile */
   }
 }

@@ -50,17 +50,16 @@ const SafariSection = () => {
           <h2>Our perfected safaris</h2>
           <p>
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. <br />
-            Each safari allows you the chance to explore the wild and connect
-            with nature.
+            opportunity to discover. <br /> I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
+            <br />
+            I think it's good for a person to spend time alone. It gives them an
+            opportunity to discover. <br />I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
             <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br />
-            Each safari allows you the chance to explore the wild and connect
-            with nature.
-            <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br />
-            Each safari allows you the chance to explore the wild and connect
-            with nature.
+            them an opportunity to discover. <br /> I think it's good for a
+            person to spend time alone. It gives them an opportunity to
+            discover.
           </p>
 
           <button className="view-button">VIEW ALL SAFARIS</button>
@@ -76,19 +75,17 @@ const SafariSection = () => {
           <h2>Our exclusive offers</h2>
           <p>
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover.
-            <br /> Take advantage of our limited-time offers and embark on the
-            adventure of a lifetime.
+            opportunity to discover. <br /> I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
+            <br />
+            I think it's good for a person to spend time alone. It gives them an
+            opportunity to discover. <br />I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
             <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br />
-            Each safari allows you the chance to explore the wild and connect
-            with nature.
-            <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br />
-            Each safari allows you the chance to explore the wild and connect
-            with nature.
+            them an opportunity to discover. <br /> I think it's good for a
+            person to spend time alone. It gives them an opportunity to
+            discover.
           </p>
-
           <button className="view-button">VIEW ALL SAFARIS</button>
         </div>
 
@@ -102,17 +99,16 @@ const SafariSection = () => {
           <h2>Gorilla trekking on us</h2>
           <p>
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover.
-            <br /> Take advantage of our limited-time offers and embark on the
-            adventure of a lifetime.
+            opportunity to discover. <br /> I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
+            <br />
+            I think it's good for a person to spend time alone. It gives them an
+            opportunity to discover. <br />I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
             <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br />
-            Each safari allows you the chance to explore the wild and connect
-            with nature.
-            <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br />
-            Each safari allows you the chance to explore the wild and connect
-            with nature.
+            them an opportunity to discover. <br /> I think it's good for a
+            person to spend time alone. It gives them an opportunity to
+            discover.
           </p>
           <button className="view-button">VIEW OFFER</button>
         </div>

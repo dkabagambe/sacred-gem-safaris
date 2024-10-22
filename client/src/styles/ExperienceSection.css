@@ -1,108 +1,180 @@
+/* Experience Section */
 .experience-section {
-  color: white;
+  color: #fff;
 }
 
-.be-inspired {
+/* Banner Section */
+.experience-banner {
   position: relative;
-  text-align: center;
-}
-
-.inspiration-image {
-  width: 100%;
-  height: 60vh; /* Adjust height for styling */
-  object-fit: cover; /* Ensures the image covers the area */
-}
-
-.inspired-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-}
-
-.explore-gallery {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #ffd700; /* Button color */
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.experience-nature,
-.why-travel {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 40px;
-  text-align: center;
-  margin: 20px 0;
-  border-radius: 10px; /* Rounded corners */
-}
-
-.section-title {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
-}
-
-.section-text {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.view-experiences {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #ffd700; /* Button color */
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.birding {
+  height: 60vh;
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin: 20px 0;
+}
+
+.experience-banner .banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.experience-banner .banner-text {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.banner-text .divider {
+  margin: 1rem auto;
+  border: 1px solid rgba(255, 255, 255, 0.7); /* Light white for better visibility */
+  width: 50%; /* Width of the divider */
+}
+
+/* Gallery Link */
+.banner-text .gallery-link {
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.banner-text .gallery-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content */
+.experience-content {
+  padding: 3rem;
+  background-color: #0d0d0d;
+  text-align: center;
+}
+
+.experience-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.experience-content p {
+  font-size: 1.2rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.view-experiences-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Birding Section */
+.birding-section {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.birding-card {
+  text-align: center;
 }
 
 .birding-image {
-  width: 50%;
-  height: auto;
-  border-radius: 10px; /* Rounded corners */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.birding-details {
-  padding: 20px;
+.birding-text p {
+  font-size: 1.1rem;
+  color: #ccc;
 }
 
-.birding-title {
-  font-size: 1.5rem;
+.birding-text h3 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+/* Why Travel Section */
+.why-travel-section {
+  background-color: #1a1a1a;
+  padding: 3rem;
+  text-align: center;
+}
+
+.why-travel-section h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.why-travel-section p {
+  font-size: 1.2rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+/* Accordion Section */
+.accordion-section {
+  padding: 1rem;
+}
+
+.accordion-item {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: 1px solid #f39c12;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header {
+  padding: 1rem;
+  background-color: #f39c12;
+  color: #fff;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-.birding-locations {
-  font-size: 1rem;
+.accordion-body {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 1rem;
 }
 
-/* Responsive Styles */
+.accordion-item.open .accordion-header {
+  background-color: #d35400; /* Different color when open */
+}
+
+.accordion-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-  .birding {
-    flex-direction: column;
-    align-items: center;
+  .banner-text h1 {
+    font-size: 2.5rem; /* Responsive title size */
   }
 
-  .inspired-title {
-    font-size: 2rem; /* Smaller on smaller screens */
+  .experience-content h2 {
+    font-size: 2rem; /* Responsive heading size */
   }
 
-  .explore-gallery,
-  .view-experiences {
-    font-size: 1rem; /* Smaller buttons on smaller screens */
+  .experience-content p,
+  .birding-text p {
+    font-size: 1rem; /* Responsive paragraph size */
   }
 
-  .experience-nature,
-  .why-travel {
-    padding: 20px;
+  .birding-image {
+    width: 150px; /* Image size for mobile */
+    height: 150px;
+  }
+
+  .accordion-header {
+    font-size: 1.2rem;
   }
 }
