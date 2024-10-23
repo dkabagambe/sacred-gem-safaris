@@ -126,14 +126,14 @@
   text-transform: uppercase;
 }
 
-.birding-card.birding-image {
+.birding-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.birding-card.birding-text {
+.birding-text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -144,15 +144,15 @@
   display: flex;
 }
 
-.birding-card.birding-text p {
+.birding-text p {
   margin: 0;
   font-size: 2rem;
   color: #ccc;
   line-height: 1.7rem;
 }
-.birding-card.birding-text h2 {
+.birding-text h2 {
+  position: relative;
   font-size: 3rem;
-  margin-bottom: 1rem;
   color: #ffffff;
   text-align: center;
 }
@@ -185,19 +185,19 @@
     left: 6px;
   }
 
-  .birding-card.birding-image {
+  .birding-image {
     height: 100%;
     object-fit: cover;
   }
 
-  .birding-card.birding-text {
+  .birding-text {
     position: absolute;
     bottom: 50;
     left: 10;
     text-align: center;
   }
 
-  .birding-card.birding-text p {
+  .birding-text p {
     font-size: 1rem;
     line-height: 1rem;
   }

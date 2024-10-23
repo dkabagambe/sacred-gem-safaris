@@ -59,9 +59,9 @@ const WildlifeSection = () => {
               <span>{item.title}</span>
               <span className="accordion-arrow">
                 {activeAccordion === index ? (
-                  <IoIosArrowUp />
+                  <IoIosArrowUp className="open" />
                 ) : (
-                  <IoIosArrowDown />
+                  <IoIosArrowDown className="closed" />
                 )}
               </span>
             </div>
@@ -78,11 +78,19 @@ const WildlifeSection = () => {
           </div>
         ))}
       </div>
-
+      <h5>travel with a purpose</h5>
       <h2 className="impact-title">Our impact</h2>
       <p className="impact-description">
         I think it's good for a person to spend time alone. It gives them an
-        opportunity to discover.
+        opportunity to discover. <br /> I think it's good for a person to spend
+        time alone. It gives them an opportunity to discover.
+        <br />
+        I think it's good for a person to spend time alone. It gives them an
+        opportunity to discover. <br />I think it's good for a person to spend
+        time alone. It gives them an opportunity to discover.
+        <br />I think it's good for a person to spend time alone. It gives them
+        an opportunity to discover. <br /> I think it's good for a person to
+        spend time alone. It gives them an opportunity to discover.
       </p>
       <Link to="/impact" className="read-more">
         READ ABOUT OUR IMPACT
@@ -105,15 +113,24 @@ const WildlifeSection = () => {
           />
         </div>
       </div>
-
-      <h2 className="about-title">Who we are</h2>
-      <p className="about-description">
-        I think it's good for a person to spend time alone. I think it's good
-        for a person to spend time alone.
-      </p>
-      <Link to="/about" className="read-more">
-        READ MORE
-      </Link>
+      <div className="who-we-are">
+        <h2 className="about-title">Who we are</h2>
+        <p className="about-description">
+          I think it's good for a person to spend time alone. It gives them an
+          opportunity to discover. <br /> I think it's good for a person to
+          spend time alone. It gives them an opportunity to discover.
+          <br />
+          I think it's good for a person to spend time alone. It gives them an
+          opportunity to discover. <br />I think it's good for a person to spend
+          time alone. It gives them an opportunity to discover.
+          <br />I think it's good for a person to spend time alone. It gives
+          them an opportunity to discover. <br /> I think it's good for a person
+          to spend time alone. It gives them an opportunity to discover.
+        </p>
+        <Link to="/about" className="read-more">
+          READ MORE
+        </Link>
+      </div>
     </div>
   );
 };
