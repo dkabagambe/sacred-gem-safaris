@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/WildlifeSection.css";
-import {
-  IoIosArrowDropdownCircle,
-  IoIosArrowDropupCircle,
-} from "react-icons/io";
+import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 
 const WildlifeSection = () => {
   const [activeAccordion, setActiveAccordion] = useState(null);
@@ -31,20 +28,20 @@ const WildlifeSection = () => {
     {
       title: "Professionalism",
       image:
-        "https://images.unsplash.com/photo-1502789574004-4d60b507bc47?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60", // Professionalism image URL
+        "https://images.pexels.com/photos/29015790/pexels-photo-29015790/free-photo-of-toad-in-natural-habitat-on-a-sunny-day.jpeg?auto=compress&cs=tinysrgb&w=600", // Professionalism image URL
       content:
         "Professionalism is key to creating an unforgettable experience.",
     },
     {
       title: "Impact",
       image:
-        "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60", // Impact image URL
+        "https://images.pexels.com/photos/28100862/pexels-photo-28100862/free-photo-of-boy-in-t-shirt-carrying-bag-on-dirt-road-in-countryside.jpeg?auto=compress&cs=tinysrgb&w=600", // Impact image URL
       content: "Our impact on the environment and community is paramount.",
     },
     {
       title: "Culture",
       image:
-        "https://images.unsplash.com/photo-1505486446091-d6b7f1d6b590?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60", // Culture image URL
+        "https://images.pexels.com/photos/19982407/pexels-photo-19982407/free-photo-of-tribal-huts-in-village.jpeg?auto=compress&cs=tinysrgb&w=600", // Culture image URL
       content:
         "Understanding and respecting local culture enriches our experience.",
     },
@@ -62,9 +59,9 @@ const WildlifeSection = () => {
               <span>{item.title}</span>
               <span className="accordion-arrow">
                 {activeAccordion === index ? (
-                  <IoIosArrowDropupCircle />
+                  <IoIosArrowUp />
                 ) : (
-                  <IoIosArrowDropdownCircle />
+                  <IoIosArrowDown />
                 )}
               </span>
             </div>
