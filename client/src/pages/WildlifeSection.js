@@ -131,6 +131,45 @@ const WildlifeSection = () => {
           READ MORE
         </Link>
       </div>
+      <div className="services-section">
+        <h2>Our Services</h2>
+        <p>
+          I think it’s good for a person to spend time alone. It gives them an
+          opportunity to discover. I think it’s good for a person to spend time
+          alone. It gives them an opportunity to discover.
+        </p>
+        <Link to="/more-services" className="read-more-link">
+          READ MORE
+        </Link>
+
+        <div className="services-image">
+          <img
+            src="https://images.pexels.com/photos/5480716/pexels-photo-5480716.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Services"
+            className="responsive-image"
+          />
+        </div>
+
+        <div className="testimonial-section">
+          <h3>What our guests say</h3>
+          <p className="testimonial-quote">
+            I think it's good for a person to spend time alone. It gives them an
+            opportunity to discover. <br /> I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
+            <br />
+            I think it's good for a person to spend time alone. It gives them an
+            opportunity to discover. <br />I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
+            <br />I think it's good for a person to spend time alone. It gives
+            them an opportunity to discover. <br /> I think it's good for a
+            person to spend time alone. It gives them an opportunity to
+            discover.
+          </p>
+          <p className="testimonial-author">
+            <strong>NAMARA DEBTH | 21.07.2023</strong>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
