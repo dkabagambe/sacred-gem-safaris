@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logo1.png";
+import logo from "../assets/img/logo.PNG";
 import "../styles/Footer.css";
 
 const Footer = () => {
@@ -8,26 +8,33 @@ const Footer = () => {
       <div className="footer-grid">
         <div className="footer-column">
           <h4>Services</h4>
-          <p>Packages</p>
-          <p>Experiences</p>
-          <p>Articles</p>
+          <ul>
+            <li>Packages</li>
+            <li>Experiences</li>
+            <li>Articles</li>
+          </ul>
         </div>
 
         <div className="horizontal-lines"></div>
         <div className="footer-column">
           <h4>Destinations</h4>
-          <p>Rwanda</p>
-          <p>Kenya</p>
-          <p>Uganda</p>
-          <p>Tanzania</p>
+          <ul>
+            <li>Rwanda</li>
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li>Tanzania</li>
+          </ul>
         </div>
 
         <div className="horizontal-lines"></div>
         <div className="footer-column">
           <h4>About us</h4>
-          <p>About us</p>
-          <p>Our services</p>
-          <p>Our impact</p>
+
+          <ul>
+            <li>About us</li>
+            <li>Our services</li>
+            <li>Our impact</li>
+          </ul>
         </div>
       </div>
 
@@ -49,7 +56,7 @@ const Footer = () => {
       <div className="horizontal-line"></div>
 
       <div className="newsletter-section">
-        <h4>Never miss out</h4>
+        <h3>Never miss out</h3>
         <p>
           Subscribe to our newsletter to stay up to date with our offers and
           latest articles
