@@ -14,8 +14,17 @@
 }
 
 /* Apply Cormorant Garamond font to the body */
+
 body {
-  all: unset;
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
 }

@@ -1,64 +1,194 @@
+/* General section styling */
 .wildlife-section {
-  max-width: 1200px; /* Limit width */
-  margin: auto; /* Center the section */
-  padding: 20px; /* Inner padding */
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 20px;
 }
 
-section {
-  margin-bottom: 40px; /* Space between sections */
-  border-radius: 8px; /* Rounded corners */
-  padding: 20px; /* Inner padding */
-  background-color: white; /* Set background to white */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px; /* Adds space between letters */
 }
 
-.section-title {
-  font-size: 2.2rem; /* Consistent title size */
-  margin-bottom: 10px; /* Space below title */
-  text-align: center; /* Centered title */
+.main-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
-.explore-gallery,
-.view-experiences,
-.view-birding {
-  display: inline-block; /* Block-like element */
-  padding: 12px 24px; /* Padding for buttons */
-  background-color: #007bff; /* Blue background */
-  color: white; /* White text color */
-  text-decoration: none; /* No underline */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s; /* Smooth background transition */
-  margin: 10px 0; /* Vertical margin */
+.subtitle {
+  font-size: 20px;
+  margin: 20px 0;
 }
 
-.explore-gallery:hover,
-.view-experiences:hover,
-.view-birding:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+.description {
+  margin-bottom: 20px;
 }
 
-inspire-image,
-.nature-image,
-.why-travel-image,
-.birding-image {
-  width: 100%; /* Responsive images */
-  border-radius: 8px; /* Rounded corners for images */
-  margin-top: 15px; /* Space above images */
+/* Accordion styling */
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  cursor: pointer;
+  background-color: var(--slate-gray);
+  border: 1px solid #122c4b; /* Border around each accordion header */
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
 }
 
-.untamed-nature > p {
-  font-size: 1.1rem; /* Font size for paragraphs */
-  line-height: 1.6; /* Line height for readability */
-  margin-bottom: 10px; /* Bottom margin */
+.accordion-header:hover {
+  background-color: #333; /* Slightly lighter when hovering */
 }
 
-/* Responsive adjustments */
+.accordion-arrow {
+  font-size: 24px; /* Larger size for visibility */
+  color: #fff; /* Orange color for the arrow (similar to the design) */
+  transition: transform 0.3s ease;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #122c4b;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-content img {
+  width: 100%; /* Full width of the container */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Arrow rotates when accordion is open */
+.accordion-header .accordion-arrow {
+  transform: rotate(0deg);
+}
+
+.accordion-header.active .accordion-arrow {
+  transform: rotate(180deg); /* Rotates the arrow when the accordion is open */
+}
+
+/* Impact section */
+.impact-title,
+.about-title {
+  margin-top: 40px;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.impact-description,
+.about-description {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #dcdcdc;
+}
+
+.read-more {
+  display: block;
+  color: #ff7f50; /* Highlight color */
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+/* Container for the top image */
+.top-image-container {
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.top-image {
+  width: 80%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* Container for the bottom image */
+.bottom-image-container {
+  position: absolute;
+  bottom: -70%; /* Adjusting the overlap for the bottom image */
+  right: 0; /* Align the bottom image to the right */
+  width: 35%; /* Adjust the width of the second image */
+}
+
+.bottom-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* Mobile responsiveness */
 @media (max-width: 768px) {
-  .section-title {
-    font-size: 1.7rem; /* Smaller titles on mobile */
+  .image-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
 
-  .untamed-nature > p {
-    font-size: 0.9rem; /* Smaller text on mobile */
+  .top-image-container,
+  .bottom-image-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bottom-image-container {
+    top: 0;
+    width: 100%;
+  }
+  .top-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .accordion-header span {
+    font-size: 16px;
+  }
+
+  .accordion-content {
+    padding: 8px;
+  }
+
+  .accordion-image {
+    width: 100%; /* Full-width images on mobile */
+  }
+
+  .read-more {
+    font-size: 14px; /* Slightly smaller font on mobile */
+  }
+
+  .impact-title,
+  .about-title {
+    font-size: 20px; /* Slightly smaller title size on mobile */
+  }
+
+  .impact-description,
+  .about-description {
+    font-size: 14px; /* Slightly smaller text size on mobile */
   }
 }
