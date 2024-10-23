@@ -253,9 +253,10 @@ h5 {
 .services-section p {
   font-size: 1.2rem;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin: 10px 15px 20px 15px;
   color: #c0ebf3;
   font-style: normal;
+  text-align: center;
 }
 
 .read-more-link {

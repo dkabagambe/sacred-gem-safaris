@@ -248,20 +248,22 @@
 .iconic-destination h5 {
   font-size: 1.2rem;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 .iconic-destination h2 {
   font-size: 2.5rem;
-  margin-bottom: 5px;
+  line-height: 1;
 }
 .iconic-destination h2:first-child {
+  margin-top: 20px;
   width: 80%;
 }
 
 .iconic-destination h2:last-child {
   width: 100%;
-  margin-bottom: -30px;
+  padding-bottom: 30px;
 }
 
 .iconic-destination p {
