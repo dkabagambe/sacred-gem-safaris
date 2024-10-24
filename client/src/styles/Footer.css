@@ -217,6 +217,8 @@
     margin-bottom: 15px;
     border-radius: 5px;
     font-size: 14px;
+    outline: none;
+    border: none;
   }
 
   .footer-logo img {

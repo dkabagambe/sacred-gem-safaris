@@ -7,13 +7,14 @@
     rgba(102, 61, 59, 1) 28%,
     rgba(82, 44, 41, 1) 100%
   ) !important;
-  padding: 20px 30px !important;
-  display: flex !important;
-  justify-content: space-between !important ;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   font-family: Garamond;
+  z-index: 10; /* Make sure the header is above other content */
 }
 
 .header-container {
@@ -57,7 +58,7 @@
 .website-name {
   flex-grow: 1;
   text-align: center;
-  font-size: 74px;
+  font-size: 80px;
   font-weight: 600;
   color: white;
   text-transform: uppercase;
@@ -86,12 +87,12 @@
   left: 0;
   width: 300px;
   height: 100vh;
-  background-color: transparent;
   transform: translateX(-100%);
   transition: transform 0.09s ease;
   z-index: 1;
   padding: 90px 30px;
-  margin-top: 100px;
+  margin-top: 132px;
+  background: #f0f1ec;
 }
 
 .navbar.open {
@@ -107,11 +108,12 @@
 }
 
 .navbar li {
+  position: relative;
   margin-bottom: 10px;
 }
 
 .navbar li a {
-  color: white;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
@@ -119,28 +121,37 @@
   transition: color 0.3s ease;
 }
 
+.navbar li a:hover {
+  color: #ff4500;
+}
+
 /* Submenu styles */
 .menu-item {
   position: relative;
 }
+
 .menu-item li {
   margin-bottom: 10px;
 }
+
 .arrow {
   float: right;
   margin-right: 10px;
-  color: white;
+  color: #000000;
 }
 
 .submenu {
   position: absolute;
   left: 100%;
   top: 0;
-  background-color: transparent;
+  background-color: #f0f1ec;
   list-style-type: none;
   padding: 10px;
   display: none;
-  text-align: justify;
+  text-align: left;
+  width: 200px; /* Adjust width for submenus */
+  z-index: 5; /* Ensure submenu is above other elements */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .menu-item:hover .submenu {
@@ -148,13 +159,18 @@
 }
 
 .submenu li:first-child {
-  padding: 10px;
+  padding: 9px;
 }
 
 .submenu li a {
-  color: white;
+  color: #000000;
   text-decoration: none;
   text-transform: capitalize;
+  padding: 10px 15px;
+}
+
+.submenu li a:hover {
+  color: #ff4500;
 }
 
 /* Close Icon Styling */
@@ -163,6 +179,12 @@
   top: 20px;
   right: 20px;
   cursor: pointer;
+  color: #353535 !important;
+  width: 50px;
+  height: 50px;
+  font-size: 0.5rem;
+  border: 1px solid #888;
+  border-radius: 50%;
 }
 
 /* Mobile Styles */
@@ -172,7 +194,7 @@
     top: 0;
     width: 100%;
     height: 70px;
-    z-index: 999;
+    z-index: 9;
   }
 
   .website-name {
@@ -192,23 +214,30 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
   .navbar {
     height: 100%;
     width: 100%;
-    background: #333;
     transform: translateX(-100%);
     transition: transform 0.5s ease;
     z-index: 1;
     padding: 20px;
-  }
-
-  .navbar ul {
-    padding: 10px;
+    margin-top: 111px;
   }
 
   .submenu {
     position: relative;
     left: 0;
-    background-color: #333;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 15px;
+    right: 22px;
+    cursor: pointer;
+    color: #353535 !important;
+    width: 30px;
+    height: 30px;
+    font-size: 0.5rem;
   }
 }
