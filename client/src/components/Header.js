@@ -32,7 +32,7 @@ const Header = () => {
   };
 
   return (
-    <header className="header">
+    <header className={`header ${menuOpen ? "shifted" : ""}`}>
       <div className="header-container">
         <div className="hamburger" onClick={toggleMenu}>
           <span className="bar"></span>
@@ -51,9 +51,8 @@ const Header = () => {
           <IoIosClose
             className="close-icon"
             size={30}
-            margin={10}
             color="white"
-            onClick={closeMenu} // Attach closeMenu function
+            onClick={closeMenu}
           />
           <ul>
             <li
@@ -83,11 +82,12 @@ const Header = () => {
                     <Link to="/destinations/oceania">Oceania</Link>
                   </li>
                   <li>
-                    <Link to="/destinations/antarctica">Antarctica</Link>
+                    <Link to="/destinations/antarctica">Antarctica</Link>{" "}
                   </li>
                 </ul>
               )}
             </li>
+
             <li
               className="menu-item"
               onMouseEnter={() => toggleSubmenu(2)}
