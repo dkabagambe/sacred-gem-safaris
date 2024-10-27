@@ -76,37 +76,41 @@ const Home = () => {
             I think it's good for a person to spend time alone. It gives them an
             opportunity to discover. <br /> I think it's good for a person to
             spend time alone. It gives them an opportunity to discover.
-            <br />
+          </p>
+          <p>
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. <br />I think it's good for a person to
+            opportunity to discover. <br /> I think it's good for a person to
             spend time alone. It gives them an opportunity to discover.
-            <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br /> I think it's good for a
-            person to spend time alone. It gives them an opportunity to
-            discover.
+          </p>
+          <p>
+            I think it's good for a person to spend time alone. It gives them an
+            opportunity to discover. <br /> I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
           </p>
         </div>
       </section>
 
       <section className="iconic-destination">
         <h5>our iconic destinations</h5>
-        <h2>Discover </h2>
-        <h2>East Africa</h2>
+        <h3>Discover </h3>
+        <h3>East Africa</h3>
         <p>
           I think it's good for a person to spend time alone. It gives them an
-          opportunity to discover. <br /> I think it's good for a person to
-          spend time alone. It gives them an opportunity to discover.
+          opportunity to discover. I think it's good for a person to spend time
+          alone. It gives them an opportunity to discover.
           <br />
           I think it's good for a person to spend time alone. It gives them an
           opportunity to discover. <br />I think it's good for a person to spend
           time alone. It gives them an opportunity to discover.
           <br />I think it's good for a person to spend time alone. It gives
-          them an opportunity to discover. <br /> I think it's good for a person
-          to spend time alone. It gives them an opportunity to discover.
+          them an opportunity to discover. I think it's good for a person to
+          spend time alone. It gives them an opportunity to discover.
         </p>
         <div className="map-container">
           <img src={map} alt="Map of East Africa" />
-          <h2>4 countries</h2>
+          <h2>
+            4 <span>countries</span>
+          </h2>
           <hr></hr>
         </div>
       </section>

@@ -143,14 +143,13 @@ h5 {
   width: 100%;
   height: 100%;
   display: grid;
-  place-items: center;
+  place-items: left;
   margin-bottom: 90px;
 }
 
 .wildlife-section.top-image {
   width: 80%;
   height: 100%;
-  border-radius: 8px;
   object-fit: contain;
 }
 
@@ -165,7 +164,6 @@ h5 {
 .wildlife-section .bottom-image {
   width: 100%;
   height: 100%;
-  border-radius: 8px;
   object-fit: contain;
 }
 .who-we-are {
@@ -199,7 +197,6 @@ h5 {
   }
   .top-image {
     width: 100%;
-    border-radius: 8px;
     object-fit: cover;
   }
 
