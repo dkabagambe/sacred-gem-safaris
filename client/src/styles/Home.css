@@ -360,16 +360,16 @@
   font-weight: 400;
   text-align: left;
   margin-left: 10px;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 .map-container h2 span {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 400;
 }
 .map-container hr {
   border: none;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #dfdede;
   width: 100%;
   padding: 0 30px;
 }
@@ -413,5 +413,23 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+  .map-container h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1.5rem;
+  }
+  .map-container h2 span {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .map-container hr {
+    border: none;
+    border-top: 1px solid #dfdede;
+    width: 98%;
+    padding: 0 30px;
   }
 }

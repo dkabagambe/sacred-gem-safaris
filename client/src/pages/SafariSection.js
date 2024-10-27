@@ -4,7 +4,7 @@ import "../styles/SafariSection.css";
 
 const SafariSection = () => {
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 2, // Show 2 slides fully on desktop
@@ -20,14 +20,13 @@ const SafariSection = () => {
       },
     ],
     centerMode: true, // Center the active slide
-    centerPadding: "7%", // Adds padding to left and right, showing part of the next slide
+    centerPadding: "4%", // Adds padding to left and right, showing part of the next slide
   };
 
   return (
     <div className="safari-sections">
       <div className="safari-section">
         {/* Image Slider Section */}
-
         <Slider {...settings} className="image-slider">
           <div className="slider-image kenya">
             <h3 className="slider-caption">KENYA</h3>
