@@ -151,10 +151,11 @@
   line-height: 1.7rem;
 }
 .birding-text h2 {
-  position: relative;
-  font-size: 3rem;
+  position: absolute;
+  font-size: 2.2rem;
   color: #ffffff;
   text-align: center;
+  bottom: 10;
 }
 
 .location-icon {
@@ -172,7 +173,7 @@
   }
 
   .birding-card {
-    width: 400px !important;
+    width: 400px;
     border-radius: 5px;
     height: 300px;
     box-shadow: none;
@@ -186,20 +187,22 @@
   }
 
   .birding-image {
-    height: 100%;
+    height: 550px !important;
+    width: 450px !important;
     object-fit: cover;
   }
 
   .birding-text {
     position: absolute;
-    bottom: 50;
+    bottom: 0;
     left: 10;
     text-align: center;
   }
 
   .birding-text p {
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 20px auto;
   }
 
   .location-icon {
@@ -249,7 +252,9 @@
 
   .experience-content p,
   .birding-text p {
-    font-size: 1rem; /* Responsive paragraph size */
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 20px auto;
   }
 
   .birding-image {

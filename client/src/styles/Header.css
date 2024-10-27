@@ -44,7 +44,7 @@
 /* Logo styles */
 .logo {
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .logo img {
@@ -61,8 +61,8 @@
 .website-name {
   flex-grow: 1;
   text-align: center;
-  font-size: 80px;
-  font-weight: 600;
+  font-size: 70px;
+  font-weight: 100;
   color: white;
   text-transform: uppercase;
 }
@@ -71,7 +71,7 @@
 .enquire-button {
   background-color: #ff6600;
   color: var(--raisin-black);
-  padding: 10px 20px;
+  padding: 22px 28px;
   border: none;
   cursor: pointer;
   font-weight: bold;

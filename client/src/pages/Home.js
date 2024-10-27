@@ -27,12 +27,10 @@ const Home = () => {
           <h4 className="hero-subheading">EXPERIENCE THE</h4>
           <h1 className="hero-heading">UNTAMED MOMENT</h1>
           <hr className="hero-line" />
+          <h2>EXPERIENCE EAST AFRICA WITH US</h2>
           <p className="hero-paragraph">
-            I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. I think it's good for a person to spend
-            time. I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. I think it's good for a person to
-            spend time.
+            At first, the workers didn't think it was Photo Grid important, but
+            after it happened 20 times, they started to think Oscar knew.
           </p>
         </div>
         <div className="media-container">
