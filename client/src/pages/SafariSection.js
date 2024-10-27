@@ -46,7 +46,7 @@ const SafariSection = () => {
       <div className="section-safari">
         <div className="section-content">
           <h5>JOURNEY WITH US</h5>
-          <h2>Our perfected safaris</h2>
+          <h3>Our perfected safaris</h3>
           <p>
             I think it's good for a person to spend time alone. It gives them an
             opportunity to discover. <br /> I think it's good for a person to
