@@ -46,7 +46,9 @@ const SafariSection = () => {
       <div className="section-safari">
         <div className="section-content">
           <h5>JOURNEY WITH US</h5>
-          <h3>Our perfected safaris</h3>
+          <h3>Our </h3>
+          <h3> perfected</h3>
+          <h3>safaris</h3>
           <p>
             I think it's good for a person to spend time alone. It gives them an
             opportunity to discover. <br /> I think it's good for a person to
@@ -71,7 +73,8 @@ const SafariSection = () => {
             alt="Exclusive Offer"
             className="exclusive-image"
           />
-          <h2>Our exclusive offers</h2>
+          <h3>Our exclusive </h3>
+          <h3>offers</h3>
           <p>
             I think it's good for a person to spend time alone. It gives them an
             opportunity to discover. <br /> I think it's good for a person to
@@ -85,17 +88,18 @@ const SafariSection = () => {
             person to spend time alone. It gives them an opportunity to
             discover.
           </p>
-          <button className="view-button">VIEW ALL SAFARIS</button>
         </div>
 
         {/* Gorilla Trekking Section */}
         <div className="section-content">
           <img
-            src="https://images.pexels.com/photos/1238272/pexels-photo-1238272.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="https://images.unsplash.com/photo-1676102818778-7dedb5cdad46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvcmlsbGF8ZW58MHx8MHx8fDA%3D"
             alt="Gorilla Trekking"
             className="gorilla-image"
           />
-          <h2>Gorilla trekking on us</h2>
+          <h3>Gorilla </h3>
+          <h3>trekking on us</h3>
+
           <p>
             I think it's good for a person to spend time alone. It gives them an
             opportunity to discover. <br /> I think it's good for a person to
@@ -110,6 +114,9 @@ const SafariSection = () => {
             discover.
           </p>
           <button className="view-button">VIEW OFFER</button>
+          {/* <button style={{ color: "#0e0e0e" }} className="view-button">
+            VIEW ALL SAFARIS
+          </button> */}
         </div>
       </div>
     </div>

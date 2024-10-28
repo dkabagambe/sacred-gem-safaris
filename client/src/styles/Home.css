@@ -7,6 +7,7 @@
   align-items: end;
   overflow: hidden;
   margin: auto;
+  margin-top: -140px;
 }
 
 .hero-content {
@@ -15,10 +16,11 @@
   text-align: center;
   color: white;
   padding: 10px;
-  padding-top: 10%;
+  padding-top: 20%;
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 100%;
 }
 
 .hero-subheading {
@@ -293,8 +295,8 @@
   }
 
   .text-content p {
-    font-size: 1.3rem;
-    line-height: 1.4;
+    font-size: 1.5rem;
+    line-height: 1.7;
   }
 }
 
@@ -335,8 +337,8 @@
 
 .iconic-destination p {
   padding-top: 50px !important;
-  font-size: 1.3rem;
-  line-height: 1.8;
+  font-size: 1.6rem;
+  line-height: 2;
   align-self: center;
   text-align: center;
   width: 80%;
@@ -397,15 +399,15 @@
   }
   .iconic-destination p {
     padding-top: 50px !important;
-    font-size: 1.4rem;
-    line-height: 2;
+    font-size: 1.5rem;
+    line-height: 1.7;
     align-self: center;
     width: 100%;
-    margin-bottom: -40px;
+    margin-bottom: 0px;
     margin-left: 10px;
   }
   .map-container {
-    margin-top: -90px;
+    margin-top: -20px;
     position: relative;
   }
 

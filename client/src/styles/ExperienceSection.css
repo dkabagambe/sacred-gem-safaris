@@ -1,15 +1,16 @@
 /* Experience Section */
 .experience-section {
   width: 100%;
-  margin-top: -70px;
   color: #fff;
   background-color: var(--dark-gray);
+  height: 100%;
+  padding-top: 30px;
 }
 
 /* Banner Section */
 .experience-banner {
   position: relative;
-  height: 60vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
