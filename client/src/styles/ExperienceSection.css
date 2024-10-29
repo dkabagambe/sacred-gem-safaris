@@ -144,7 +144,41 @@
   text-align: left;
   width: 100%;
 }
+@media (max-width: 768px) {
+  .experience-content {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .experience-content h5 {
+    font-weight: 100;
+    font-size: 1.4rem;
+    margin-bottom: 70px;
+    line-height: 1.2;
+    padding-top: 20px;
+  }
+  .experience-content h3 {
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.4;
+    width: 100%;
+  }
+  .experience-content h3:first-child {
+    width: 100%;
+  }
 
+  .experience-content h3:last-child {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .experience-content p {
+    font-size: 1.5rem !important;
+    line-height: 1.7;
+  }
+}
 /* Birding Section */
 .birding-section {
   display: flex;
