@@ -27,7 +27,9 @@ const ExperienceSection = () => {
       {/* Main content */}
       <div className="experience-content text-center">
         <h5>Experience east africa</h5>
-        <h2>Experience Raw, Untamed Nature</h2>
+        <h3>Experience</h3>
+        <h3>raw, untamed</h3>
+        <h3>nature</h3>
         <p>
           I think it's good for a person to spend time alone. It gives them an
           opportunity to discover. <br /> I think it's good for a person to

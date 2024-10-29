@@ -77,48 +77,72 @@
   width: 100%; /* Match the width you set in your existing CSS */
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.7); /* Light white for better visibility */
-  margin-bottom: 3px;
 }
 
 /* Main Content */
 .experience-content {
-  padding: 3rem;
   background-color: var(--dark-gray);
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .experience-content h5 {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.experience-content h2 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.experience-content p {
   font-size: 1.2rem;
-  color: #ccc;
-  line-height: 1.6;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  line-height: 1;
+  text-align: left;
+  margin-left: 20px;
+  width: 100%;
+}
+.experience-content h3 {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.experience-content h3:first-child {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.experience-content h3:last-child {
+  margin-bottom: 30px;
+}
+.experience-content p {
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 50px !important;
+  width: 100%;
+  padding-bottom: 5rem;
+  font-size: 1.6rem;
+  line-height: 2;
+  text-align: left;
 }
 
 .view-experiences-link {
   background-color: var(--dark-gray);
+  text-decoration: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
   border: none;
-  font-weight: 100;
-  margin: 40px 20px;
+  font-weight: 300;
+  margin: 70px 0px 40px 10px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.7rem;
   border-radius: 5px;
   text-transform: uppercase;
-  text-decoration: none;
-}
-.view-experiences-link:hover {
-  background-color: #333;
+  align-self: flex-start;
+  text-align: left;
+  width: 100%;
 }
 
 /* Birding Section */
