@@ -15,43 +15,69 @@
   justify-content: center;
   align-items: center;
   background-color: var(--dark-gray);
+  width: 100%;
 }
 
 .experience-banner .banner-image {
-  width: 100%;
-  height: 100%;
+  height: 50%;
   object-fit: cover;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .experience-banner .banner-text {
   position: absolute;
   text-align: center;
   color: #fff;
+  z-index: 2;
+  width: 100%;
 }
-.banner-text h1 {
-  font-size: 3rem;
-}
-.banner-text .divider {
-  margin: 1rem auto;
-  border: 1px solid rgba(255, 255, 255, 0.7); /* Light white for better visibility */
-  width: 50%; /* Width of the divider */
+.banner-text h3 {
+  font-size: 5rem;
+  width: 100%;
+  flex-grow: 1;
 }
 
 /* Gallery Link */
 .banner-text .gallery-link {
-  display: inline-block;
+  display: block;
   color: #fff;
   text-transform: uppercase;
   background-color: transparent;
-  padding: 0.5rem 1rem;
+  padding: 3rem;
+  line-height: 3;
   margin-top: 1rem;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
   transition: background-color 0.3s ease-in-out;
 }
+/* Divider Container */
+.banner-text .divider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  max-width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
-.banner-text .gallery-link:hover {
-  background-color: rgba(253, 253, 253, 0.2);
+/* Diamond Shape */
+.banner-text .diamond {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Match diamond color to text */
+  transform: rotate(45deg); /* Rotate square to make diamond */
+  margin-right: 0.3rem; /* Space between diamond and divider */
+}
+
+/* Divider Line */
+.banner-text .divider {
+  width: 100%; /* Match the width you set in your existing CSS */
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.7); /* Light white for better visibility */
+  margin-bottom: 3px;
 }
 
 /* Main Content */

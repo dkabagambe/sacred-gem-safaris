@@ -8,16 +8,19 @@ const ExperienceSection = () => {
       {/* Top section with image and title */}
       <div className="experience-banner">
         <img
-          src="https://images.pexels.com/photos/28320170/pexels-photo-28320170/free-photo-of-a-lake-with-houses-on-it-and-mountains-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=400"
+          src="https://images.pexels.com/photos/29117959/pexels-photo-29117959/free-photo-of-scenic-tropical-beach-surrounded-by-lush-foliage.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="Scenic East Africa"
           className="banner-image"
         />
         <div className="banner-text">
-          <h1>Be Inspired</h1>
+          <h3>Be Inspired</h3>
           <Link to="/gallery" className="gallery-link">
             Explore our gallery
           </Link>
-          <hr className="divider" />
+          <div className="divider-container">
+            <span className="diamond"></span>
+            <hr className="divider" />
+          </div>
         </div>
       </div>
 
