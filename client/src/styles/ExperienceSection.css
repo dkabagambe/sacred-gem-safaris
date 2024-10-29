@@ -148,8 +148,9 @@
   .experience-content {
     text-align: center;
     margin-bottom: 70px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
   }
   .experience-content h5 {
     font-weight: 100;
@@ -175,6 +176,7 @@
   }
 
   .experience-content p {
+    width: 90%;
     font-size: 1.5rem !important;
     line-height: 1.7;
   }
@@ -183,16 +185,15 @@
 .birding-section {
   display: flex;
   justify-content: center;
-  padding: 3rem;
-  height: auto;
+  height: 100%;
+  width: 100%;
 }
 
 .birding-card {
   position: relative;
-  width: 90%;
+  width: 96%;
   height: auto;
   overflow: hidden;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -207,7 +208,7 @@
   background-color: var(--dark-gray);
   color: white;
   padding: 25px 25px;
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 
@@ -215,7 +216,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
 }
 
 .birding-text {
@@ -224,126 +224,187 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  text-align: left;
+  padding: 10%;
+  padding-left: 20px;
   display: flex;
+  justify-content: flex-start;
 }
 
 .birding-text p {
   margin: 0;
   font-size: 2rem;
-  color: #ccc;
-  line-height: 1.7rem;
+  color: #ffffff;
+  line-height: 2rem;
+  justify-self: flex-start;
+  text-align: center;
 }
-.birding-text h2 {
-  position: absolute;
-  font-size: 2.2rem;
+.location-icon {
+  font-size: 3rem;
+  color: #fff;
+}
+.birding-card h2 {
+  font-size: 2.5rem;
+  padding-top: 5rem;
+  font-weight: 300;
   color: #ffffff;
   text-align: center;
-  bottom: 10;
 }
-
-.location-icon {
-  font-size: 2rem;
-  color: #fff;
-  margin-right: 5px;
-}
-
 /* Mobile View */
 @media (max-width: 768px) {
   .birding-section {
-    padding: 1.5rem;
-    width: 100%;
+    display: flex;
+    justify-content: center;
     height: 100%;
+    width: 100%;
   }
 
   .birding-card {
-    width: 400px;
-    border-radius: 5px;
-    height: 300px;
-    box-shadow: none;
+    position: relative;
+    width: 98%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
 
   .label {
-    font-size: 0.75rem;
-    padding: 5px 10px;
+    position: absolute;
     top: 20px;
-    left: 6px;
+    left: 20px;
+    background-color: var(--dark-gray);
+    color: white;
+    padding: 25px 25px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
   }
 
   .birding-image {
-    height: 550px !important;
-    width: 450px !important;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    align-self: center;
   }
-
   .birding-text {
     position: absolute;
     bottom: 0;
-    left: 10;
-    text-align: center;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .birding-text p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin: 20px auto;
+    padding: 1px;
+    font-size: 2rem;
+    line-height: 2.5;
   }
 
   .location-icon {
-    font-size: 1rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .birding-card h2 {
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    font-weight: 200;
+    color: #ffffff;
+    text-align: center;
   }
 }
 
 /* Why Travel Section */
 .why-travel-section {
-  padding: 3rem;
-  text-align: center;
-  background-color: var(--slate-gray);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.why-travel-section h1 {
-  text-transform: uppercase;
-  font-weight: 100;
-  margin-bottom: 40px;
-  font-size: 1.1rem;
-  color: #ffffff;
-}
-
-.why-travel-section h2 {
-  font-size: 3.5rem;
-  color: #fff;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-  text-transform: normal;
-}
-
-.why-travel-section p {
+.why-travel-section h5 {
   font-size: 1.2rem;
-  color: #ccc;
-  line-height: 1.6;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  line-height: 1;
+  text-align: left;
+  margin-left: 20px;
+  width: 100%;
+}
+.why-travel-section h5 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  line-height: 1;
+  text-align: left;
+  margin-left: 20px;
+  width: 100%;
+}
+.why-travel-section h3 {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.why-travel-section h3:first-child {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.why-travel-section h3:last-child {
+  margin-bottom: 30px;
+}
+.why-travel-section p {
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 50px !important;
+  width: 100%;
+  padding-bottom: 5rem;
+  font-size: 1.6rem;
+  line-height: 2;
+  text-align: left;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .banner-text h1 {
-    font-size: 2.5rem; /* Responsive title size */
+  .why-travel-section {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
   }
-
-  .experience-content h2 {
-    font-size: 2.6rem; /* Responsive heading size */
-    line-height: 1.5;
+  .why-travel-section h5 {
+    font-weight: 100;
+    font-size: 1.4rem;
+    margin-bottom: 70px;
+    line-height: 1.2;
+    padding-top: 20px;
+  }
+  .why-travel-section h3 {
+    text-align: left;
+    font-size: 4rem;
     font-weight: 400;
+    line-height: 1.4;
+    width: 100%;
   }
-
-  .experience-content p,
-  .birding-text p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin: 20px auto;
+  .why-travel-section h3:first-child {
+    width: 100%;
   }
-
-  .birding-image {
-    width: 150px; /* Image size for mobile */
-    height: 150px;
+  .why-travel-section h3:last-child {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .why-travel-section p {
+    width: 90%;
+    font-size: 1.5rem !important;
+    line-height: 1.7;
   }
 }

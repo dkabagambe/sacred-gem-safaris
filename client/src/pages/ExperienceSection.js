@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaLocationDot } from "react-icons/fa6";
+import { CiLocationOn } from "react-icons/ci";
 import "../styles/ExperienceSection.css";
 
 const ExperienceSection = () => {
@@ -25,7 +25,7 @@ const ExperienceSection = () => {
       </div>
 
       {/* Main content */}
-      <div className="experience-content text-center">
+      <div className="experience-content ">
         <h5>Experience east africa</h5>
         <h3>Experience</h3>
         <h3>raw, untamed</h3>
@@ -48,32 +48,35 @@ const ExperienceSection = () => {
       </div>
 
       {/* Birding section */}
-      <div className="birding-section d-flex justify-content-center">
+      <div className="birding-section ">
         <div className="birding-card">
           <div className="card-overlay">
             <div className="label">WILDLIFE</div>
             <img
-              src="https://images.pexels.com/photos/22476019/pexels-photo-22476019/free-photo-of-close-up-of-a-wild-duck-in-flight.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Birding in East Africa"
               className="birding-image"
             />
             <div className="birding-text">
-              <p>
+              <p className="locations">
                 <span className="location-icon">
-                  <FaLocationDot />
+                  <CiLocationOn />
                 </span>
-                Uganda, Rwanda, Kenya
+                Uganda, Rwanda, <br />
+                Kenya
               </p>
-              <h2>BIRDING</h2>
             </div>
           </div>
+          <h2>BIRDING</h2>
         </div>
       </div>
 
       {/* Why travel with us section */}
-      <div className="why-travel-section text-center">
-        <h1>why sacred gem safaris</h1>
-        <h2>Why travel With Us?</h2>
+      <div className="why-travel-section ">
+        <h5>why sacred gem safaris</h5>
+        <h3>Why travel</h3>
+        <h3>With Us?</h3>
+
         <p>
           I think it's good for a person to spend time alone. It gives them an
           opportunity to discover. <br /> I think it's good for a person to
