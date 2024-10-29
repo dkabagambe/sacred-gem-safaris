@@ -79,7 +79,7 @@ const WildlifeSection = () => {
         ))}
       </div>
       <h5>travel with a purpose</h5>
-      <h2 className="impact-title">Our impact</h2>
+      <h3 className="impact-title">Our impact</h3>
       <p className="impact-description">
         I think it's good for a person to spend time alone. It gives them an
         opportunity to discover. <br /> I think it's good for a person to spend
@@ -114,7 +114,8 @@ const WildlifeSection = () => {
         </div>
       </div>
       <div className="who-we-are">
-        <h2 className="about-title">Who we are</h2>
+        <h5>who we are</h5>
+        <h2 className="about-title">About us</h2>
         <p className="about-description">
           I think it's good for a person to spend time alone. It gives them an
           opportunity to discover. <br /> I think it's good for a person to
@@ -132,11 +133,18 @@ const WildlifeSection = () => {
         </Link>
       </div>
       <div className="services-section">
-        <h2>Our Services</h2>
+        <h3>Our Services</h3>
         <p>
-          I think it’s good for a person to spend time alone. It gives them an
-          opportunity to discover. I think it’s good for a person to spend time
-          alone. It gives them an opportunity to discover.
+          I think it's good for a person to spend time alone. It gives them an
+          opportunity to discover. <br /> I think it's good for a person to
+          spend time alone. It gives them an opportunity to discover.
+          <br />
+          I think it's good for a person to spend time alone. It gives them an
+          opportunity to discover. <br />I think it's good for a person to spend
+          time alone. It gives them an opportunity to discover.
+          <br />I think it's good for a person to spend time alone. It gives
+          them an opportunity to discover. <br /> I think it's good for a person
+          to spend time alone. It gives them an opportunity to discover.
         </p>
         <Link to="/more-services" className="read-more-link">
           READ MORE
@@ -165,9 +173,9 @@ const WildlifeSection = () => {
             person to spend time alone. It gives them an opportunity to
             discover.
           </p>
-          <p className="testimonial-author">
-            <strong>NAMARA DEBTH | 21.07.2023</strong>
-          </p>
+          <h6 className="testimonial-author">
+            <strong>NAMARA ODETH | 8.7.2021</strong>
+          </h6>
         </div>
       </div>
     </div>

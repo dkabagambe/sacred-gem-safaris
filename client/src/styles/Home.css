@@ -191,9 +191,10 @@
 /* Container for the top image */
 .top-image-container {
   position: relative;
-  width: 100%;
+  width: 98%;
   display: grid;
   place-items: left;
+  padding-left: 10px;
 }
 
 .top-image {
@@ -208,6 +209,7 @@
   bottom: -70%; /* Adjusting the overlap for the bottom image */
   right: 0; /* Align the bottom image to the right */
   width: 35%; /* Adjust the width of the second image */
+  padding-right: 10px;
 }
 
 .bottom-image {

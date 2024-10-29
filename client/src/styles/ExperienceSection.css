@@ -125,7 +125,6 @@
   padding-bottom: 5rem;
   font-size: 1.6rem;
   line-height: 2;
-  text-align: left;
 }
 
 .view-experiences-link {
@@ -231,6 +230,7 @@
 }
 
 .birding-text p {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   margin: 0;
   font-size: 2rem;
   color: #ffffff;
@@ -322,23 +322,13 @@
   flex-direction: column;
   gap: 10px;
 }
+
 .why-travel-section h5 {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 50px;
-  padding-top: 30px;
-  line-height: 1;
-  text-align: left;
-  margin-left: 20px;
-  width: 100%;
-}
-.why-travel-section h5 {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  font-weight: 400;
-  margin-bottom: 50px;
-  padding-top: 30px;
+  margin-top: 70px;
   line-height: 1;
   text-align: left;
   margin-left: 20px;
