@@ -38,19 +38,21 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-social">
-        <Link to="">
-          <i className="fab fa-facebook-f"></i>
-        </Link>
-        <Link to="">
-          <i className="fab fa-twitter"></i>
-        </Link>
-        <Link to="">
-          <i className="fab fa-tiktok"></i>
-        </Link>
-        <Link to="">
-          <i className="fab fa-instagram"></i>
-        </Link>
+      <div className="footer-social-container">
+        <div className="footer-social">
+          <Link to="">
+            <i className="fab fa-facebook-f"></i>
+          </Link>
+          <Link to="">
+            <i className="fab fa-twitter"></i>
+          </Link>
+          <Link to="">
+            <i className="fab fa-tiktok"></i>
+          </Link>
+          <Link to="">
+            <i className="fab fa-instagram"></i>
+          </Link>
+        </div>
       </div>
 
       <div className="horizontal-line"></div>
@@ -80,9 +82,7 @@ const Footer = () => {
         <Link to="/privacy-policy">Privacy Policy</Link>
       </div>
 
-      <p className="footer-copyright">
-        &copy; Copyright Sacred Gem Safaris 2024
-      </p>
+      <p className="footer-copyright">Copyright Sacred Gem Safaris 2024</p>
     </footer>
   );
 };
