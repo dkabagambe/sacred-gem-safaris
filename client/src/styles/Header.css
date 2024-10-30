@@ -1,12 +1,22 @@
 /* General styles */
-.header {
-  /* background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(102, 61, 59, 1) 28%,
-    rgba(82, 44, 41, 1) 100%
-  );
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+/* .header {
+   background: transparent;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-family: Garamond;
+  transition: margin-left 0.3s ease; 
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+} 
+
+.header.shifted {
+  margin-left: 300px;
+}*/
+.main-container {
   background: transparent;
   padding: 20px 30px;
   display: flex;
@@ -18,10 +28,6 @@
   z-index: 9999;
   background: rgba(255, 255, 255, 0.1); /* White with 70% opacity */
   backdrop-filter: blur(10px); /* Optional blur effect */
-}
-
-.header.shifted {
-  margin-left: 300px;
 }
 
 .header-container {

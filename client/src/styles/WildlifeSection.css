@@ -222,7 +222,6 @@
 }
 
 .read-more {
-  background-color: var(--slate-gray);
   color: white;
   padding: 10px;
   border: none;
@@ -285,6 +284,9 @@
 }
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  .who-we-are {
+    margin-left: -10px;
+  }
   .wildlife-section.image-wrapper {
     display: flex;
     flex-direction: column;
@@ -362,11 +364,6 @@
     width: 90%;
     font-size: 1.5rem !important;
     line-height: 1.7;
-  }
-  .wildlife-section .read-more {
-    background-color: var(--slate-gray);
-    color: #fff;
-    margin: 5px;
   }
 }
 

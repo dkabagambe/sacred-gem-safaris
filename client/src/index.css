@@ -28,3 +28,9 @@ body {
 html {
   overflow-x: hidden;
 }
+@media (max-width: 768px) {
+  body {
+    margin-left: -10px;
+    margin-right: 0;
+  }
+}
