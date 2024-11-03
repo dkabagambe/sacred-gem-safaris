@@ -23,7 +23,7 @@ const ExperienceSection = () => {
     },
     {
       src: "https://images.pexels.com/photos/29146714/pexels-photo-29146714/free-photo-of-majestic-giraffe-in-kenyan-savannah.jpeg?auto=compress&cs=tinysrgb&w=600",
-      label: "SAFARIS",
+      label: "Culture",
       description: "Adventure",
     },
     {
@@ -33,12 +33,12 @@ const ExperienceSection = () => {
     },
     {
       src: "https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=600",
-      label: "MOUNTAIN TREKKING",
+      label: "sight seeing",
       description: "Summit",
     },
     {
       src: "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&w=600",
-      label: "BEACH RELAXATION",
+      label: "recreation",
       description: "Serenity",
     },
     {
