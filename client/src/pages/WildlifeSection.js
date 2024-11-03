@@ -157,7 +157,7 @@ const WildlifeSection = () => {
         </div>
         <div className="who-we-are">
           <h5>who we are</h5>
-          <h2 className="about-title">About us</h2>
+          <h3 className="about-title">About us</h3>
           <p className="about-description">
             I think it's good for a person to spend time alone. It gives them an
             opportunity to discover. <br /> I think it's good for a person to
