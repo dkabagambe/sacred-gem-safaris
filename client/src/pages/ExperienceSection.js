@@ -77,7 +77,7 @@ const ExperienceSection = () => {
           <div className="banner-text">
             <h3>Be Inspired</h3>
             <Link to="/gallery" className="gallery-link">
-              Explore our gallery
+              plan your journey
             </Link>
             <div className="divider-container">
               <span className="diamond"></span>

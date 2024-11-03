@@ -19,8 +19,7 @@ const SafariSection = () => {
         },
       },
     ],
-    centerMode: true,
-    centerPadding: "5%",
+    centerMode: false, // Disable center mode
     nextArrow: <div />, // Hide default arrows
     prevArrow: <div />,
   };

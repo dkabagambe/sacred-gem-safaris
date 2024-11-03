@@ -369,7 +369,7 @@
   .map-container h2 {
     text-transform: uppercase;
     text-align: left;
-    font-size: clamp(19px, 1vw + 0.5rem, 27px);
+    font-size: clamp(20px, 1vw + 0.5rem, 27px);
     font-family: var(--font-heading);
     font-weight: 400;
     line-height: 1.5;
@@ -378,9 +378,12 @@
   .map-container h2 span {
     text-transform: uppercase;
     text-align: left;
-    font-size: clamp(19px, 1vw + 0.5rem, 27px);
+    font-size: clamp(20px, 1vw + 0.5rem, 27px);
     font-family: var(--font-heading);
     font-weight: 400;
     line-height: 1.5;
+  }
+  .iconic-destination p {
+    line-height: 1.7;
   }
 }

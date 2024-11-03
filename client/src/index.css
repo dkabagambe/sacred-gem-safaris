@@ -66,10 +66,8 @@ body {
   font-size: clamp(17px, 1vw + 0.5rem, 32px);
   font-family: var(--font-primary);
   font-weight: 500;
-  line-height: 1.5; /* Adjust as needed */
-  margin-bottom: calc(
-    4 * clamp(17px, 1vw + 0.5rem, 32px)
-  ); /* 4x button height */
+  line-height: 1.5;
+  margin-bottom: calc(4 * clamp(17px, 1vw + 0.5rem, 32px));
 }
 
 .dropdown {
