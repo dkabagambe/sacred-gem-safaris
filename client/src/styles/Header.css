@@ -1,22 +1,5 @@
 /* General styles */
-/* .header {
-   background: transparent;
-  padding: 20px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  font-family: Garamond;
-  transition: margin-left 0.3s ease; 
-  z-index: 9999;
-  background: rgba(255, 255, 255, 0.1); 
-  backdrop-filter: blur(10px); 
-} 
-
-.header.shifted {
-  margin-left: 300px;
-}*/
-.main-container {
+.header {
   background: transparent;
   padding: 20px 30px;
   display: flex;
@@ -24,10 +7,10 @@
   align-items: center;
   position: relative;
   font-family: Garamond;
-  transition: margin-left 0.3s ease; /* Shift header when navbar opens */
+  transition: margin-left 0.3s ease;
   z-index: 9999;
-  background: rgba(255, 255, 255, 0.1); /* White with 70% opacity */
-  backdrop-filter: blur(10px); /* Optional blur effect */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .header-container {
@@ -72,21 +55,24 @@
   flex-grow: 1;
   text-align: center;
   font-size: 70px;
-  font-weight: 100;
+  font-weight: 500;
   color: white;
   text-transform: uppercase;
+  line-height: 1.2;
+  font-family: var(--font-heading);
 }
 
 /* Enquire button styles */
 .enquire-button {
   background-color: #ff6600;
   color: var(--raisin-black);
-  padding: 22px 28px;
+  padding: 20px 24px;
   border: none;
   cursor: pointer;
-  font-weight: bold;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
+  font-weight: 500;
+  font-size: clamp(14px, 5vw, 17px);
 }
 
 .enquire-button:hover {
@@ -113,7 +99,7 @@
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.9; /* Adjusting background opacity */
-  filter: brightness(0.6); /* Reduce brightness of image */
+  filter: brightness(0.8); /* Reduce brightness of image */
 }
 
 .navbar.open {
@@ -230,10 +216,6 @@
 @media (min-width: 769px) {
   .navbar {
     width: 30vw; /* Full size for desktop sidebar */
-  }
-
-  .header.shifted {
-    margin-left: 300px; /* Shift header to the right when sidebar opens */
   }
 
   .overlay {

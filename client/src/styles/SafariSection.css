@@ -1,11 +1,10 @@
 /* General section styling */
 .safari-section {
-  background-color: var(--beige-tan); /* Beige background similar to the top */
-  padding: 50px 20px;
+  background-color: var(--beige-tan);
+  padding: 20px 9rem !important;
   color: white;
-  /* margin-top: -40px; */
-  margin-bottom: 40px;
   height: 100%;
+  position: relative;
 }
 
 .image-slider {
@@ -13,12 +12,13 @@
   justify-content: space-between;
   margin-bottom: 20px;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .slider-image {
   position: relative;
-  max-width: 98%;
-  height: 90dvh;
+  max-width: 95%;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   margin: auto 95px auto -95px;
@@ -44,20 +44,44 @@
   position: absolute;
   bottom: 50%;
   left: 40%;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* Custom Slider Navigation Buttons */
+.slider-navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+.nav-button {
+  border: 1px solid var(--off-white); /* Border for circular look */
+  color: var(--off-white); /* Icon color */
+  font-size: 1.5rem; /* Icon size */
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
 /* section safari */
 .section-safari {
   background-color: var(--dark-gray);
   color: #ffffff;
-  margin-top: -40px;
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 0px 9rem 0px 9rem !important;
 }
 
 .section-content {
@@ -83,41 +107,28 @@
 }
 
 .section-content h5 {
-  font-size: 1.2rem;
   text-transform: uppercase;
-  font-weight: 400;
-  margin-bottom: 50px;
-  padding-top: 30px;
-  line-height: 1;
   text-align: left;
-  margin-left: 20px;
-  width: 100%;
+  font-size: clamp(12px, 1vw + 0.5rem, 27px);
+  font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: calc(1 * clamp(50px, 2vw + 1rem, 65px));
 }
 .section-content h3 {
-  text-align: left;
-  margin-left: 20px;
-  font-size: 5rem;
-  line-height: 1.5;
+  font-size: clamp(100px, 3vw + 1rem, 115px);
+  font-family: var(--font-heading);
   font-weight: 500;
-}
-.section-content h3:first-child {
-  font-size: 5rem;
-  text-align: center;
-  width: 100%;
-}
-
-.section-content h3:last-child {
-  margin-bottom: 30px;
+  line-height: 1.2;
+  margin-bottom: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
+  text-align: left;
 }
 
 .section-content p {
-  text-align: left;
-  margin-left: 20px;
-  padding-top: 50px !important;
-  width: 100%;
-  font-size: 1.6rem;
-  line-height: 2;
-  text-align: left;
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: clamp(16px, 5vw, 25px);
+  line-height: clamp(1.5, 1.6, 1.8);
 }
 
 .section-content .view-button {
@@ -126,7 +137,7 @@
   padding: 10px;
   border: none;
   font-weight: 300;
-  margin: 70px 0px 10px 10px;
+  margin: 7rem 0px 7rem 10px;
   cursor: pointer;
   font-size: 1.7rem;
   border-radius: 5px;
@@ -134,6 +145,25 @@
   align-self: flex-start;
   text-align: left;
   width: 100%;
+}
+.section-content2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.section-content2 h3 {
+  text-align: left;
+  font-size: clamp(50px, 2vw + 1rem, 65px);
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.5; /* Adjust as needed */
+}
+.section-content2 p {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: clamp(15px, 5vw, 25px);
+  line-height: clamp(1.5, 1.6, 1.8);
 }
 
 /* Adjustments for button hover */
@@ -143,14 +173,27 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .image-slider {
-    flex-direction: column;
+  .safari-section {
+    background-color: var(--beige-tan);
+    padding: 15px !important;
+    color: white;
+    height: 100%;
+    position: relative;
   }
-
-  .slider-image {
+  .image-slider {
+    display: flex;
+    justify-content: space-evenly;
     margin-bottom: 20px;
-    margin: auto 60px auto 0%;
-    width: 100%;
+    overflow-x: hidden;
+    padding: 0 20px;
+  }
+  .slider-image {
+    position: relative;
+    max-width: 95%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    margin: 10px !important;
   }
 
   .section-content img {
@@ -160,16 +203,33 @@
   .slider-caption {
     position: absolute;
     bottom: 50%;
-    left: 40%;
-    font-size: 3rem;
+    left: 20%;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
   }
-  .slider-caption {
-    bottom: 50%;
-    left: 33%;
-    font-size: 1.7rem;
-    font-weight: 800;
+  /* Custom Slider Navigation Buttons */
+  .slider-navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    gap: 30px;
+    margin-right: 10px;
+  }
+
+  .nav-button {
+    border: 1px solid var(--off-white); /* Border for circular look */
+    color: var(--off-white); /* Icon color */
+    font-size: 1.2rem; /* Icon size */
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
   }
 
   .section-content {
@@ -187,18 +247,11 @@
   }
   .section-content h3 {
     text-align: left;
-    font-size: 4rem;
-    font-weight: 400;
-    line-height: 1.4;
-    width: 100%;
-  }
-  .section-content h3:first-child {
-    width: 100%;
-  }
-
-  .section-content h3:last-child {
-    margin-bottom: 30px;
-    width: 100%;
+    font-size: clamp(50px, 2vw + 1rem, 65px);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    line-height: 1.2; /* Adjust as needed */
+    margin-bottom: calc(1 * clamp(16px, 1vw + 1rem, 31px));
   }
 
   .section-content p {
@@ -217,5 +270,26 @@
   .gorilla-image {
     width: 94%;
     height: 700px;
+  }
+  .section-content2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .section-content2 h3 {
+    text-align: left;
+    font-size: clamp(50px, 2vw + 1rem, 65px);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    line-height: 1.5; /* Adjust as needed */
+  }
+  .section-content2 p {
+    text-align: left;
+    font-size: clamp(14px, 1vw, 18px);
+    line-height: clamp(1.2, 1.3vw/1vw, 1.6);
+    margin-bottom: 1em;
+    font-weight: 300;
   }
 }

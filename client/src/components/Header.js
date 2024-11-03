@@ -32,7 +32,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`main-container ${menuOpen ? "shifted" : ""}`}>
+    <header className={`header ${menuOpen ? "shifted" : ""}`}>
       <div className="header-container">
         <div className="hamburger" onClick={toggleMenu}>
           <span className="bar"></span>
