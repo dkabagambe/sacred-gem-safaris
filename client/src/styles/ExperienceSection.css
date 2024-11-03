@@ -293,35 +293,11 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .why-travel-section {
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
     width: 100%;
-  }
-  .why-travel-section h5 {
-    font-weight: 100;
-    font-size: 1.4rem;
-    margin-bottom: 70px;
-    line-height: 1.2;
-    padding-top: 20px;
-  }
-  .why-travel-section h3 {
-    text-align: left;
-    font-size: 4rem;
-    font-weight: 400;
-    line-height: 1.4;
-    width: 100%;
-  }
-  .why-travel-section h3:first-child {
-    width: 100%;
-  }
-  .why-travel-section h3:last-child {
-    margin-bottom: 30px;
-    width: 100%;
+    gap: 5px;
+    padding: 15px !important;
   }
   .why-travel-section p {
-    width: 90%;
-    font-size: 1.5rem !important;
     line-height: 1.7;
   }
 }
