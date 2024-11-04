@@ -186,9 +186,9 @@
 /* Container for the bottom image */
 .wildlife-section .bottom-image-container {
   position: absolute;
-  bottom: 20; /* Adjusting the overlap for the bottom image */
-  right: 0; /* Align the bottom image to the right */
-  width: 35%; /* Adjust the width of the second image */
+  bottom: 20;
+  right: 0;
+  width: 35%;
 }
 
 .wildlife-section .bottom-image {
@@ -384,5 +384,6 @@
   .testimonial-section {
     padding: 10px !important;
     height: 80vh;
+    width: 100%;
   }
 }
