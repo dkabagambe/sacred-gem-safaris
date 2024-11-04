@@ -66,8 +66,8 @@
 
 .accordion-arrow {
   font-size: 1.8rem;
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%; /* Ensures a circular shape */
   background-color: var(--slate-gray);
   color: white;
