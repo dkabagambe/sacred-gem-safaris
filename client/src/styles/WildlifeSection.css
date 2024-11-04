@@ -324,7 +324,7 @@
 
 .testimonial-section {
   padding: 10px 9rem !important;
-  background-color: rgba(255, 255, 255, 0.89);
+  background-color: rgba(107, 107, 107, 0.89);
   background-image: url("https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&w=600");
   background-size: cover;
   background-position: center;
@@ -333,6 +333,8 @@
   flex-direction: column;
   height: 70vh;
   gap: 10px;
+  filter: brightness(0.5);
+  filter: contrast(0.9);
 }
 
 .testimonial-section h3 {
@@ -362,7 +364,7 @@
   font-size: clamp(16px, 5vw, 25px);
   line-height: clamp(1.5, 1.6, 1.8);
   margin-bottom: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
-  color: rgb(39, 27, 27);
+  color: rgb(0, 0, 0);
   align-self: start;
 }
 
