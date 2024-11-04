@@ -54,11 +54,16 @@ const SafariSection = () => {
         </Slider>
         {/* Custom Navigation Buttons */}
         <div className="slider-navigation">
-          <button className="nav-button" onClick={() => sliderRef.slickPrev()}>
-            <IoIosArrowBack />
-            {/* Left Arrow Icon */}
+          <button
+            className="nav-button"
+            onClick={() => sliderRef.current.slickPrev()}
+          >
+            <IoIosArrowBack /> {/* Left Arrow Icon */}
           </button>
-          <button className="nav-button" onClick={() => sliderRef.slickNext()}>
+          <button
+            className="nav-button"
+            onClick={() => sliderRef.current.slickNext()}
+          >
             <IoIosArrowForward /> {/* Right Arrow Icon */}
           </button>
         </div>
