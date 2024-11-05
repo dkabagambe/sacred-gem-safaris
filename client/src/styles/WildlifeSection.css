@@ -66,8 +66,8 @@
 
 .accordion-arrow {
   font-size: 1.8rem;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%; /* Ensures a circular shape */
   background-color: var(--slate-gray);
   color: white;
@@ -100,9 +100,10 @@
 .accordion-content p {
   font-family: var(--font-primary);
   font-weight: 300;
-  font-size: clamp(14px, 5vw, 24px);
+  font-size: clamp(10px, 5vw, 18px);
   line-height: clamp(1.5, 1.6, 1.8);
-  margin-bottom: calc(1.2 * clamp(50px, 2vw + 1rem, 60px));
+  text-align: left;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
 }
 .accordion-content img {
   width: 100%;
@@ -139,10 +140,10 @@
 .about-description {
   font-family: var(--font-primary);
   font-weight: 300;
-  font-size: clamp(16px, 5vw, 25px);
+  font-size: clamp(10px, 5vw, 18px);
   line-height: clamp(1.5, 1.6, 1.8);
   text-align: left;
-  margin-bottom: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
 }
 
 .read-more {
@@ -207,7 +208,7 @@
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .who-we-are {
-    margin-left: 1px;
+    margin-left: 0;
   }
   .wildlife-section.image-wrapper {
     display: flex;
@@ -275,23 +276,21 @@
 }
 
 .services-section h3 {
-  text-align: left;
-  font-size: clamp(100px, 3vw + 1rem, 115px);
+  font-size: clamp(60px, 3vw + 1rem, 90px);
   font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+  text-align: left;
 }
 
 .services-section p {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: clamp(10px, 5vw, 18px);
+  line-height: clamp(1.5, 1.6, 1.8);
   text-align: left;
-  margin-left: 20px;
-  padding-top: 50px !important;
-  width: 100%;
-  padding-bottom: 5rem;
-  font-size: 1.6rem;
-  line-height: 2;
-  text-align: left;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
 }
 
 .read-more-link {
@@ -338,11 +337,12 @@
 }
 
 .testimonial-section h3 {
-  font-size: clamp(100px, 3vw + 1rem, 115px);
+  font-size: clamp(60px, 3vw + 1rem, 90px);
   font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+  text-align: left;
   color: #fff;
 }
 

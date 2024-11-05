@@ -6,6 +6,7 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 // Import slick-carousel styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SectionSlider from "./Swipersafari";
 
 const SafariSection = () => {
   const sliderRef = useRef(null); // Use useRef for the slider reference
@@ -109,9 +110,9 @@ const SafariSection = () => {
             discover.
           </p>
         </div>
-
+        <SectionSlider />
         {/* Gorilla Trekking Section */}
-        <div className="section-content2">
+        {/* <div className="section-content2">
           <div className="section-content">
             <img
               src="https://images.unsplash.com/photo-1676102818778-7dedb5cdad46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvcmlsbGF8ZW58MHx8MHx8fDA%3D"
@@ -150,7 +151,26 @@ const SafariSection = () => {
             </p>
             <button className="view-button">VIEW OFFER</button>
           </div>
-        </div>
+          <div className="section-content">
+            <img
+              src="https://images.unsplash.com/photo-1676102818778-7dedb5cdad46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvcmlsbGF8ZW58MHx8MHx8fDA%3D"
+              alt="Gorilla Trekking"
+              className="gorilla-image"
+            />
+            <h3>Gorilla trekking on us</h3>
+
+            <p>
+              I think it's good for a person to spend time alone. It gives them
+              an opportunity to discover. <br />I think it's good for a person
+              to spend time alone. It gives them an opportunity to discover.
+              <br />I think it's good for a person to spend time alone. It gives
+              them an opportunity to discover. <br /> I think it's good for a
+              person to spend time alone. It gives them an opportunity to
+              discover.
+            </p>
+            <button className="view-button">VIEW OFFER</button>
+          </div>
+        </div> */}
       </div>
     </div>
   );

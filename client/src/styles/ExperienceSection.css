@@ -39,11 +39,12 @@
   margin-bottom: 60px;
 }
 .banner-text h3 {
-  text-align: left;
-  font-size: clamp(100px, 3vw + 1rem, 115px);
+  font-size: clamp(60px, 3vw + 1rem, 90px);
   font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.2;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+  text-align: left;
 }
 
 /* Gallery Link */
@@ -104,19 +105,21 @@
   margin-bottom: calc(1 * clamp(50px, 2vw + 1rem, 65px));
 }
 .experience-content h3 {
-  font-size: clamp(90px, 3vw + 1rem, 100px);
+  font-size: clamp(60px, 3vw + 1rem, 90px);
   font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: calc(1 * clamp(50px, 2vw + 1rem, 65px));
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+  text-align: left;
 }
 
 .experience-content p {
   font-family: var(--font-primary);
   font-weight: 300;
-  font-size: clamp(16px, 5vw, 25px);
+  font-size: clamp(10px, 5vw, 18px);
   line-height: clamp(1.5, 1.6, 1.8);
   text-align: left;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
 }
 
 .view-experiences-link {
@@ -148,6 +151,12 @@
 
   .experience-content p {
     line-height: 1.7;
+  }
+  .experience-banner .banner-image {
+    height: 100%;
+    object-fit: fill;
+    margin-bottom: 50px;
+    width: 100%;
   }
 }
 /* Birding Section */
@@ -198,8 +207,8 @@
 
 .label {
   position: absolute;
-  font-size: clamp(10px, 5vw, 20px);
-  padding: 7px;
+  font-size: clamp(10px, 5vw, 15px);
+  padding: 10px;
   top: 10px;
   left: 10px;
   background-color: var(--dark-gray);
@@ -273,21 +282,21 @@
   margin-top: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
 }
 .why-travel-section h3 {
-  text-align: left;
-  font-size: clamp(100px, 3vw + 1rem, 115px);
+  font-size: clamp(60px, 3vw + 1rem, 90px);
   font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+  text-align: left;
 }
 
 .why-travel-section p {
   font-family: var(--font-primary);
   font-weight: 300;
-  font-size: clamp(16px, 5vw, 25px);
+  font-size: clamp(10px, 5vw, 18px);
   line-height: clamp(1.5, 1.6, 1.8);
   text-align: left;
-  margin-bottom: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
 }
 
 /* Responsive Design */
