@@ -324,6 +324,12 @@
   font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.2;
+
+  font-size: clamp(60px, 3vw + 1rem, 90px);
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
 }
 .iconic-destination p {
   margin-top: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));

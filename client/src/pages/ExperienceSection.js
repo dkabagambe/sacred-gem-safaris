@@ -92,16 +92,15 @@ const ExperienceSection = () => {
           <h3>Experience raw, untamed nature</h3>
           <p>
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. <br /> I think it's good for a person to
-            spend time alone. It gives them an opportunity to discover.
+            opportunity to discover. I think it's good for a person to spend
+            time alone. It gives them an opportunity to discover.
             <br />
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. <br />I think it's good for a person to
-            spend time alone. It gives them an opportunity to discover.
+            opportunity to discover. I think it's good for a person to spend
+            time alone. It gives them an opportunity to discover.
             <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br /> I think it's good for a
-            person to spend time alone. It gives them an opportunity to
-            discover.
+            them an opportunity to discover. I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
           </p>
           <Link to="/all-experiences" className="view-experiences-link">
             View all experiences
@@ -145,15 +144,15 @@ const ExperienceSection = () => {
 
         <p>
           I think it's good for a person to spend time alone. It gives them an
-          opportunity to discover. <br /> I think it's good for a person to
-          spend time alone. It gives them an opportunity to discover.
+          opportunity to discover. I think it's good for a person to spend time
+          alone. It gives them an opportunity to discover.
           <br />
           I think it's good for a person to spend time alone. It gives them an
-          opportunity to discover. <br />I think it's good for a person to spend
-          time alone. It gives them an opportunity to discover.
+          opportunity to discover. I think it's good for a person to spend time
+          alone. It gives them an opportunity to discover.
           <br />I think it's good for a person to spend time alone. It gives
-          them an opportunity to discover. <br /> I think it's good for a person
-          to spend time alone. It gives them an opportunity to discover.
+          them an opportunity to discover. I think it's good for a person to
+          spend time alone. It gives them an opportunity to discover.
         </p>
       </div>
     </>

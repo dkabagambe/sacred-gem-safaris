@@ -124,15 +124,15 @@ const WildlifeSection = () => {
         <h3 className="impact-title">Our impact</h3>
         <p className="impact-description">
           I think it's good for a person to spend time alone. It gives them an
-          opportunity to discover. <br /> I think it's good for a person to
-          spend time alone. It gives them an opportunity to discover.
+          opportunity to discover. I think it's good for a person to spend time
+          alone. It gives them an opportunity to discover.
           <br />
           I think it's good for a person to spend time alone. It gives them an
-          opportunity to discover. <br />I think it's good for a person to spend
-          time alone. It gives them an opportunity to discover.
+          opportunity to discover. I think it's good for a person to spend time
+          alone. It gives them an opportunity to discover.
           <br />I think it's good for a person to spend time alone. It gives
-          them an opportunity to discover. <br /> I think it's good for a person
-          to spend time alone. It gives them an opportunity to discover.
+          them an opportunity to discover. I think it's good for a person to
+          spend time alone. It gives them an opportunity to discover.
         </p>
         <Link to="/impact" className="read-more">
           READ ABOUT OUR IMPACT
@@ -160,16 +160,15 @@ const WildlifeSection = () => {
           <h3 className="about-title">About us</h3>
           <p className="about-description">
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. <br /> I think it's good for a person to
-            spend time alone. It gives them an opportunity to discover.
+            opportunity to discover. I think it's good for a person to spend
+            time alone. It gives them an opportunity to discover.
             <br />
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. <br />I think it's good for a person to
-            spend time alone. It gives them an opportunity to discover.
+            opportunity to discover. I think it's good for a person to spend
+            time alone. It gives them an opportunity to discover.
             <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br /> I think it's good for a
-            person to spend time alone. It gives them an opportunity to
-            discover.
+            them an opportunity to discover. I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
           </p>
           <Link to="/about" className="read-more">
             READ MORE
@@ -179,16 +178,15 @@ const WildlifeSection = () => {
           <h3>Our Services</h3>
           <p>
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. <br /> I think it's good for a person to
-            spend time alone. It gives them an opportunity to discover.
+            opportunity to discover. I think it's good for a person to spend
+            time alone. It gives them an opportunity to discover.
             <br />
             I think it's good for a person to spend time alone. It gives them an
-            opportunity to discover. <br />I think it's good for a person to
-            spend time alone. It gives them an opportunity to discover.
+            opportunity to discover. I think it's good for a person to spend
+            time alone. It gives them an opportunity to discover.
             <br />I think it's good for a person to spend time alone. It gives
-            them an opportunity to discover. <br /> I think it's good for a
-            person to spend time alone. It gives them an opportunity to
-            discover.
+            them an opportunity to discover. I think it's good for a person to
+            spend time alone. It gives them an opportunity to discover.
           </p>
           <Link to="/more-services" className="read-more-link">
             READ MORE
