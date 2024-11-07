@@ -1,4 +1,7 @@
 /* General section styling */
+.safari-sections {
+  margin-top: -10rem;
+}
 .safari-section {
   background-color: var(--beige-tan);
   padding: 20px 9rem !important;
@@ -170,6 +173,9 @@
 }
 /* Media Queries */
 @media (max-width: 768px) {
+  .safari-sections {
+    margin-top: -4rem;
+  }
   .section-safari {
     gap: 5px;
     padding: 15px !important;
