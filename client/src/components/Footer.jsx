@@ -6,9 +6,17 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-grid">
+        {/* Services Section */}
         <div className="footer-column">
-          <h4>Services</h4>
-          <ul>
+          <input
+            type="checkbox"
+            id="services-toggle"
+            className="footer-toggle"
+          />
+          <label htmlFor="services-toggle">
+            <h4>Services</h4>
+          </label>
+          <ul className="footer-list">
             <li>Packages</li>
             <li>Experiences</li>
             <li>Articles</li>
@@ -16,9 +24,18 @@ const Footer = () => {
         </div>
 
         <div className="horizontal-lines"></div>
+
+        {/* Destinations Section */}
         <div className="footer-column">
-          <h4>Destinations</h4>
-          <ul>
+          <input
+            type="checkbox"
+            id="destinations-toggle"
+            className="footer-toggle"
+          />
+          <label htmlFor="destinations-toggle">
+            <h4>Destinations</h4>
+          </label>
+          <ul className="footer-list">
             <li>Rwanda</li>
             <li>Kenya</li>
             <li>Uganda</li>
@@ -27,10 +44,14 @@ const Footer = () => {
         </div>
 
         <div className="horizontal-lines"></div>
-        <div className="footer-column">
-          <h4>About us</h4>
 
-          <ul>
+        {/* About Us Section */}
+        <div className="footer-column">
+          <input type="checkbox" id="about-toggle" className="footer-toggle" />
+          <label htmlFor="about-toggle">
+            <h4>About us</h4>
+          </label>
+          <ul className="footer-list">
             <li>About us</li>
             <li>Our services</li>
             <li>Our impact</li>
@@ -38,6 +59,7 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Social Links, Newsletter, etc. */}
       <div className="footer-social-container">
         <div className="footer-social">
           <Link to="">
