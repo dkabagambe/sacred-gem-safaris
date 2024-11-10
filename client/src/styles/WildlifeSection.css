@@ -390,8 +390,8 @@
   }
 
   .testimonial-section {
-    padding: 10px !important;
-    height: 80vh;
+    padding: 15px !important;
+    height: 100% !important;
     width: 100%;
   }
   .testimonial-quote {
