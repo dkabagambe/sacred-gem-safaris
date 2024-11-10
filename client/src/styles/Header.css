@@ -10,6 +10,7 @@
   z-index: 1001;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
 }
 
 .header-container {
@@ -17,7 +18,12 @@
   align-items: center;
   width: 100%;
 }
-
+.header.hidden {
+  transform: translateY(-100%);
+}
+.header.visible {
+  transform: translateY(0);
+}
 /* Hamburger menu styles */
 .hamburger {
   cursor: pointer;
@@ -274,7 +280,7 @@
     font-size: 4.5rem !important;
   }
 }
-.header {
+/* .header {
   transition: transform 0.3s ease;
 }
 
@@ -284,4 +290,4 @@
 
 .header.visible {
   transform: translateY(0);
-}
+} */
