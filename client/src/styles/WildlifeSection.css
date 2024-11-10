@@ -114,7 +114,7 @@
 @media (max-width: 768px) {
   .wildlife-section {
     gap: 5px;
-    padding: 15px !important;
+    padding: 25px !important;
   }
   .accordion-content img {
     width: 100%;

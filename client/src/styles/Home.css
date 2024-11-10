@@ -289,6 +289,7 @@
     text-align: left;
     height: 100%;
     margin-top: 350px;
+    padding: 25px !important;
   }
 
   .text-content p {
@@ -373,7 +374,7 @@
 @media (max-width: 768px) {
   .iconic-destination {
     gap: 5px;
-    padding: 15px !important;
+    padding: 25px !important;
   }
   .map-container {
     transform: translateY(0px);
