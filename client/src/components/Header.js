@@ -15,20 +15,11 @@ import {
 } from "react-icons/fa";
 import { GiElephant, GiEarthAfricaEurope } from "react-icons/gi";
 
-const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+const Header = ({ menuOpen, toggleMenu }) => {
   const [activeSubmenu, setActiveSubmenu] = useState(null);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
 
   const toggleSubmenu = (index) => {
     setActiveSubmenu(activeSubmenu === index ? null : index);
-  };
-
-  const closeMenu = () => {
-    setMenuOpen(false);
   };
 
   return (
@@ -44,7 +35,6 @@ const Header = () => {
             <img src={logo} alt="SACRED GEM SAFARIS" />
           </Link>
         </div>
-
         <h1 className="website-name">SACRED GEM SAFARIS</h1>
         <button className="enquire-button">ENQUIRE</button>
         <nav className={`navbar ${menuOpen ? "open" : ""}`}>
@@ -52,7 +42,7 @@ const Header = () => {
             className="close-icon"
             size={30}
             color="white"
-            onClick={closeMenu}
+            onClick={toggleMenu}
           />
           <ul>
             <li

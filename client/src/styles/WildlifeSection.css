@@ -92,9 +92,8 @@
   background-color: #31424e;
 }
 .accordion-content h3 {
-  width: 100%;
   text-align: left;
-  font-size: clamp(50px, 2vw + 1rem, 65px);
+  font-size: clamp(30px, 1vw + 1rem, 45px);
   font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.5; /* Adjust as needed */
