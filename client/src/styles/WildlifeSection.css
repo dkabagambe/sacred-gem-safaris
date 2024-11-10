@@ -122,6 +122,27 @@
     height: 60vh;
     object-fit: cover;
   }
+
+  .accordion-arrow {
+    font-size: 1.6rem;
+    width: 100px;
+    height: 100px;
+  }
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    color: whitesmoke;
+    text-transform: uppercase;
+    background-color: #232c33;
+    transition: background-color 0.3s ease;
+    font-size: clamp(16px, 1vw + 0.5rem, 32px);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    line-height: clamp(1.5, 1.6, 1.8);
+  }
 }
 /* Impact section */
 .wildlife-section h5 {
