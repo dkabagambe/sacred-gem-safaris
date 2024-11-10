@@ -274,3 +274,14 @@
     font-size: 4.5rem !important;
   }
 }
+.header {
+  transition: transform 0.3s ease;
+}
+
+.header.hidden {
+  transform: translateY(-100%);
+}
+
+.header.visible {
+  transform: translateY(0);
+}

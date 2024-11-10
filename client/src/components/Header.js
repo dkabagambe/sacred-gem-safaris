@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
 import logo from "../assets/img/logo.PNG";
@@ -17,13 +17,33 @@ import { GiElephant, GiEarthAfricaEurope } from "react-icons/gi";
 
 const Header = ({ menuOpen, toggleMenu }) => {
   const [activeSubmenu, setActiveSubmenu] = useState(null);
+  const [isVisible, setIsVisible] = useState(true);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const toggleSubmenu = (index) => {
     setActiveSubmenu(activeSubmenu === index ? null : index);
   };
 
+  // Detect scroll direction
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setIsVisible(scrollPosition > currentScrollPos || currentScrollPos < 10);
+      setScrollPosition(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrollPosition]);
+
   return (
-    <header className={`header ${menuOpen ? "shifted" : ""}`}>
+    <header
+      className={`header ${isVisible ? "visible" : "hidden"} ${
+        menuOpen ? "shifted" : ""
+      }`}
+    >
       <div className="header-container">
         <div className="hamburger" onClick={toggleMenu}>
           <span className="bar"></span>
