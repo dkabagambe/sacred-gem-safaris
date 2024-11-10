@@ -229,6 +229,7 @@ input[type="checkbox"] {
 
   /* Show list when checkbox is checked */
   .footer-toggle:checked + label + .footer-list {
+    margin-top: 1rem;
     display: block;
   }
   .horizontal-lines {

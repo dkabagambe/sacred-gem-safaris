@@ -4,16 +4,18 @@
   box-sizing: border-box;
 }
 /* App.css */
-.App {
+/* .App {
   transition: transform 0.3s ease;
 }
 
 .App.shifted {
-  transform: translateX(-300px); /* Adjust this as needed */
-  background-color: cyan;
+  transform: translateX(300px);
 }
 
-/* Content that shifts */
+.navbar.open {
+  transform: translateX(0);
+}
+
 .header,
 .footer,
 .content {
@@ -23,5 +25,5 @@
 .shifted .header,
 .shifted .footer,
 .shifted .content {
-  transform: translateX(300px); /* Matches the .App shift */
-}
+  transform: translateX(300px);
+} */
