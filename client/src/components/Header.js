@@ -28,16 +28,20 @@ const Header = ({ menuOpen, toggleMenu }) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
-      setIsVisible(scrollPosition > currentScrollPos || currentScrollPos < 10);
+      // Only toggle visibility if we actually scrolled (avoid flickering on initial load)
+      if (Math.abs(scrollPosition - currentScrollPos) > 5) {
+        setIsVisible(
+          scrollPosition > currentScrollPos || currentScrollPos < 10
+        );
+      }
       setScrollPosition(currentScrollPos);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true }); // Improves performance
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrollPosition]);
-
   return (
     <header
       className={`header ${isVisible ? "visible" : "hidden"} ${
