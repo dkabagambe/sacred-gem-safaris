@@ -395,6 +395,9 @@
     width: 100%;
   }
   .testimonial-quote {
-    margin-top: calc(10 * clamp(17px, 1vw + 0.5rem, 32px));
+    margin-top: calc(6 * clamp(17px, 1vw + 0.5rem, 32px));
+  }
+  .testimonial-author {
+    padding-bottom: calc(6 * clamp(17px, 1vw + 0.5rem, 32px));
   }
 }
