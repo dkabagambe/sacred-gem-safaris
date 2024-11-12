@@ -3,18 +3,6 @@ import { Link } from "react-router-dom";
 import "../styles/Header.css";
 import logo from "../assets/img/logo.PNG";
 import { IoIosClose } from "react-icons/io";
-import {
-  FaMapMarkerAlt,
-  FaCompass,
-  FaTags,
-  FaImages,
-  FaNewspaper,
-  FaHandsHelping,
-  FaInfoCircle,
-  FaClipboardList,
-} from "react-icons/fa";
-import { GiElephant, GiEarthAfricaEurope } from "react-icons/gi";
-
 const Header = ({ menuOpen, toggleMenu }) => {
   const [activeSubmenu, setActiveSubmenu] = useState(null);
   const [isVisible, setIsVisible] = useState(true);
@@ -74,9 +62,7 @@ const Header = ({ menuOpen, toggleMenu }) => {
               onMouseEnter={() => toggleSubmenu(1)}
               onMouseLeave={() => toggleSubmenu(null)}
             >
-              <Link to="/destinations">
-                <FaMapMarkerAlt /> DESTINATIONS
-              </Link>
+              <Link to="/destinations">DESTINATIONS</Link>
               <span className="arrow">&#8250;</span>
               {activeSubmenu === 1 && (
                 <ul className="submenu">
@@ -96,7 +82,7 @@ const Header = ({ menuOpen, toggleMenu }) => {
                     <Link to="/destinations/oceania">Oceania</Link>
                   </li>
                   <li>
-                    <Link to="/destinations/antarctica">Antarctica</Link>{" "}
+                    <Link to="/destinations/antarctica">Antarctica</Link>
                   </li>
                 </ul>
               )}
@@ -107,9 +93,7 @@ const Header = ({ menuOpen, toggleMenu }) => {
               onMouseEnter={() => toggleSubmenu(2)}
               onMouseLeave={() => toggleSubmenu(null)}
             >
-              <Link to="/safaris">
-                <GiElephant /> SAFARIS
-              </Link>
+              <Link to="/safaris">SAFARIS</Link>
               <span className="arrow">&#8250;</span>
               {activeSubmenu === 2 && (
                 <ul className="submenu">
@@ -139,9 +123,7 @@ const Header = ({ menuOpen, toggleMenu }) => {
               onMouseEnter={() => toggleSubmenu(3)}
               onMouseLeave={() => toggleSubmenu(null)}
             >
-              <Link to="/experiences">
-                <FaCompass /> EXPERIENCES
-              </Link>
+              <Link to="/experiences">EXPERIENCES</Link>
               <span className="arrow">&#8250;</span>
               {activeSubmenu === 3 && (
                 <ul className="submenu">
@@ -171,9 +153,7 @@ const Header = ({ menuOpen, toggleMenu }) => {
               onMouseEnter={() => toggleSubmenu(4)}
               onMouseLeave={() => toggleSubmenu(null)}
             >
-              <Link to="/offers">
-                <FaTags /> EXCLUSIVE OFFERS
-              </Link>
+              <Link to="/offers">EXCLUSIVE OFFERS</Link>
               <span className="arrow">&#8250;</span>
               {activeSubmenu === 4 && (
                 <ul className="submenu">
@@ -199,34 +179,22 @@ const Header = ({ menuOpen, toggleMenu }) => {
               )}
             </li>
             <li>
-              <Link to="/gallery">
-                <FaImages /> OUR GALLERY
-              </Link>
+              <Link to="/gallery">OUR GALLERY</Link>
             </li>
             <li>
-              <Link to="/articles">
-                <FaNewspaper /> OUR ARTICLES
-              </Link>
+              <Link to="/articles">OUR ARTICLES</Link>
             </li>
             <li>
-              <Link to="/services">
-                <FaHandsHelping /> OUR SERVICES
-              </Link>
+              <Link to="/services">OUR SERVICES</Link>
             </li>
             <li>
-              <Link to="/impact">
-                <GiEarthAfricaEurope /> OUR IMPACT
-              </Link>
+              <Link to="/impact">OUR IMPACT</Link>
             </li>
-            <li className="about-us">
-              <Link to="/about">
-                <FaInfoCircle /> ABOUT US
-              </Link>
+            <li className="menu-item about-us">
+              <Link to="/about">ABOUT US</Link>
             </li>
-            <li>
-              <Link to="/plan-experience">
-                <FaClipboardList /> PLAN YOUR EXPERIENCE
-              </Link>
+            <li className="menu-item special-menu-item">
+              <Link to="/plan-experience">PLAN YOUR EXPERIENCE</Link>
             </li>
           </ul>
         </nav>

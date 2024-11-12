@@ -3,11 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* App.css */
-/* .App {
+.App {
   transition: transform 0.3s ease;
 }
 
+.header,
+.footer,
+.content {
+  transition: transform 0.3s ease;
+}
+/*
 .App.shifted {
   transform: translateX(300px);
 }
@@ -27,3 +32,10 @@
 .shifted .content {
   transform: translateX(300px);
 } */
+@media (max-width: 768px) {
+  body,
+  html {
+    height: 100%;
+    overflow-x: hidden;
+  }
+}

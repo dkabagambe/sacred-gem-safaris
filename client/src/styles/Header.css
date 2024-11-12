@@ -106,6 +106,7 @@
 
 .navbar.open {
   transform: translateX(0);
+  background-color: red;
 }
 
 .navbar ul {
@@ -138,6 +139,46 @@
 
 .navbar li i {
   font-size: 22px;
+}
+.about-us {
+  position: relative;
+  color: #555; /* Default text color for "About Us" */
+  padding: 20px 16px; /* Add extra padding for space around lines */
+}
+
+.about-us::before,
+.about-us::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: white; /* Line color (above and below) */
+}
+
+.about-us::before {
+  top: 0; /* Position above */
+}
+
+.about-us::after {
+  bottom: 0; /* Position below */
+}
+.special-menu-item {
+  font-size: 24px;
+  color: #000 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  background-color: var(--zapier-orange);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.special-menu-item:hover {
+  background-color: var(--zapier-orange);
+  color: black;
 }
 
 /* Overlay for both mobile and desktop */
@@ -278,14 +319,3 @@
     font-size: 4.5rem !important;
   }
 }
-/* .header {
-  transition: transform 0.3s ease;
-}
-
-.header.hidden {
-  transform: translateY(-100%);
-}
-
-.header.visible {
-  transform: translateY(0);
-} */
