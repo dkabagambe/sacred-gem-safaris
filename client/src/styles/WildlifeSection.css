@@ -62,14 +62,13 @@
 
 .accordion-header.active {
   background-color: #31424e;
-  /* background-color: var(--slate-gray); */
 }
 
 .accordion-arrow {
   font-size: 1.8rem;
   width: 120px;
   height: 120px;
-  border-radius: 50%; /* Ensures a circular shape */
+  border-radius: 50%;
   background-color: var(--slate-gray);
   color: white;
   display: flex;
