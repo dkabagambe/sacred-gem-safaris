@@ -7,7 +7,6 @@ const Header = ({ menuOpen, toggleMenu }) => {
   const [activeSubmenu, setActiveSubmenu] = useState(null);
   const [isVisible, setIsVisible] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
-
   const toggleSubmenu = (index) => {
     setActiveSubmenu(activeSubmenu === index ? null : index);
   };
