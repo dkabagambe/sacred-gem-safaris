@@ -376,6 +376,9 @@
     gap: 5px;
     padding: 25px !important;
   }
+  .iconic-destination h5 {
+    margin-top: calc(2 * clamp(50px, 1.5vw + 1rem, 45px));
+  }
   .map-container {
     transform: translateY(0px);
     position: relative;
