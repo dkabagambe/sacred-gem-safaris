@@ -335,7 +335,6 @@
 
 .testimonial-section {
   padding: 10px 9rem !important;
-  background-color: rgba(107, 107, 107, 0.89);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -343,10 +342,10 @@
   flex-direction: column;
   height: 70vh;
   gap: 10px;
-  filter: brightness(0.5) contrast(0.9);
+  filter: brightness(0.9);
 }
 .fade-in {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .testimonial-section h3 {
@@ -364,7 +363,9 @@
   font-size: clamp(16px, 5vw, 25px);
   line-height: clamp(1.5, 1.6, 1.8);
   margin-bottom: calc(2.5 * clamp(50px, 2vw + 1rem, 65px));
-  color: rgb(61, 50, 50);
+  color: rgb(82, 82, 82);
+  filter: brightness(0.5);
+  z-index: 200;
 }
 
 .testimonial-author {

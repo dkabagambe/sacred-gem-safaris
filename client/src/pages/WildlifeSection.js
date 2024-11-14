@@ -15,28 +15,28 @@ const WildlifeSection = () => {
   const testimonials = [
     {
       quote:
-        "I think it's good for a person to spend time alone. It gives them an opportunity to discover.",
+        "I think it's good for a person to spend time alone. It gives them an opportunity to discover.I think it's good for a person to spend time alone. It gives them an opportunity to discover unmatched biodiversity.",
       author: "NAMARA ODETH | 8.7.2021",
       image:
         "https://images.unsplash.com/photo-1563268381-06ddf2b1f46d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjB3YWxsJTIwcGFwZXIlMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D",
     },
     {
       quote:
-        "Spending time alone opens doors to self-discovery and introspection.",
+        "Spending time alone opens doors to self-discovery and introspection.I think it's good for a person to spend time alone. It gives them an opportunity to discover unmatched biodiversity.",
       author: "JOHN DOE | 15.9.2022",
       image:
         "https://images.unsplash.com/photo-1569470451072-68314f596aec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHdhbGwlMjBwYXBlciUyMGxhbmRzY2FwZXxlbnwwfHwwfHx8MA%3D%3D",
     },
     {
       quote:
-        "Solitude helps one reconnect with their true self, finding inner peace.",
+        "Solitude helps one reconnect with their true self, finding inner peace.I think it's good for a person to spend time alone. It gives them an opportunity to discover unmatched biodiversity.",
       author: "JANE SMITH | 12.6.2023",
       image:
         "https://images.unsplash.com/photo-1650954316166-c3361fefcc87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHdhbGwlMjBwYXBlciUyMGxhbmRzY2FwZXxlbnwwfHwwfHx8MA%3D%3D",
     },
     {
       quote:
-        "Exploring the unknown brings a fresh perspective on life and purpose.",
+        "Exploring the unknown brings a fresh perspective on life and purpose.I think it's good for a person to spend time alone. It gives them an opportunity to discover unmatched biodiversity.",
       author: "MICHAEL JAMES | 2.4.2024",
       image:
         "https://images.unsplash.com/photo-1545091741-2231068f3478?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjB3YWxsJTIwcGFwZXIlMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D",
