@@ -162,9 +162,9 @@
   }
 
   .accordion-arrow {
-    font-size: 1.8rem;
-    width: 130px;
-    height: 130px;
+    font-size: 1.6rem;
+    width: 100px;
+    height: 100px;
   }
   .accordion-header {
     display: flex;
