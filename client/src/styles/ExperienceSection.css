@@ -172,6 +172,28 @@
     margin-bottom: 50px;
     width: 100%;
   }
+  .experience-banner .banner-text {
+    padding-left: 5%;
+    transform: translateY(-30%);
+  }
+  /* Gallery Link */
+  .banner-text .gallery-link {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: clamp(20px, 5vw, 25px);
+  }
+  /* Divider Container */
+  .banner-text .divider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    max-width: 100%;
+    margin-left: 0px;
+  }
 }
 
 /* mobile styles */

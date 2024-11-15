@@ -104,7 +104,6 @@
 
 .navbar.open {
   transform: translateX(0);
-  background-color: red;
 }
 
 .navbar ul {
@@ -112,7 +111,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 
 .navbar li {
@@ -136,7 +135,7 @@
 }
 
 .navbar li i {
-  font-size: 22px;
+  font-size: 18px;
 }
 .about-us {
   position: relative;
@@ -162,7 +161,7 @@
   bottom: 0; /* Position below */
 }
 .special-menu-item {
-  font-size: 24px;
+  font-size: 18px;
   color: #000 !important;
   text-transform: uppercase;
   font-weight: bold;
@@ -294,14 +293,24 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 75%;
+    width: max-content;
     padding: 10px;
     padding-top: 4rem;
+    height: fit-content;
+  }
+  .navbar ul {
+    gap: 10px;
+  }
+  .navbar li a {
+    font-size: 16px;
+    gap: 5px;
   }
 
-  .submenu {
-    position: relative;
-    left: 0;
+  .submenu li a {
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    gap: 5px;
   }
 
   .overlay {
@@ -317,7 +326,7 @@
     width: 30px;
     height: 30px;
     background-color: whitesmoke !important;
-    font-size: 4.5rem !important;
+    font-size: 4rem !important;
   }
   .about-us {
     position: relative;

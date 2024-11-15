@@ -190,49 +190,25 @@
   .image-slider {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 10px;
+    margin-bottom: -30%;
     overflow-x: hidden;
   }
   .slider-image {
     position: relative;
-    height: 60vh;
+    height: 600px;
     background-size: cover;
     background-position: center;
     margin: 10px !important;
   }
 
   .slider-caption {
-    left: 22%;
-  }
-  /* Custom Slider Navigation Buttons */
-  .slider-navigation {
-    align-self: flex-end;
-    display: flex;
-    justify-content: flex-end;
-    margin: 10rem 10rem 6rem 0;
-    gap: 40px;
-  }
-  .slider-navigation {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    gap: 30px;
-    margin-right: 10px;
+    left: 30%;
+    font-size: clamp(20px, 1.5vw + 1rem, 35px);
+    font-weight: 600;
+    line-height: 1.5;
   }
 
   .nav-button {
-    /* border: 1px solid var(--off-white);
-    color: var(--off-white);
-    font-size: 1.2rem;
-    background-color: transparent;
-    cursor: pointer;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s; */
     display: none;
   }
 
@@ -281,7 +257,7 @@
   .image-slider {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 10px;
+    margin-bottom: -60%;
     overflow-x: hidden;
   }
   .slider-image {
@@ -406,15 +382,12 @@
 
 /* Adjusts slide layout for tablet screen sizes */
 @media (max-width: 768px) {
-  /* .slider-container {
-    height: 100%;
-    margin: 0px -9rem 0px -9rem !important;
-  } */
   .slider-container {
     height: 100%;
     margin: 0px !important;
     padding: 15px !important;
     overflow-x: hidden;
+    margin-bottom: -30% !important;
   }
   .slide-content {
     position: relative;
@@ -444,6 +417,7 @@
   .slide-content .view-button {
     background-color: transparent;
     transform: translateY(10px);
+    transform: translatex(-10px);
   }
 }
 
@@ -455,6 +429,7 @@
     margin: 0px !important;
     padding: 10px !important;
     overflow-x: hidden;
+    margin-bottom: -71% !important;
   }
   .slide-content {
     position: relative;
