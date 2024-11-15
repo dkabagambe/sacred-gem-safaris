@@ -88,7 +88,7 @@
   top: 0;
   left: 0;
   width: 400px;
-  height: 100vh;
+  height: fit-content;
   background: rgba(0, 0, 0, 0.5)
     url("https://images.pexels.com/photos/133394/pexels-photo-133394.jpeg?auto=compress&cs=tinysrgb&w=600")
     no-repeat center/cover;
@@ -263,7 +263,7 @@
   }
 }
 
-/* Mobile Styles */
+/* Tablet Styles */
 @media (max-width: 768px) {
   .header {
     position: fixed;
@@ -290,9 +290,13 @@
     left: 50%;
     transform: translateX(-50%);
   }
-
   .navbar {
-    width: 75%; /* Sidebar takes 75% of the screen for mobile */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    padding: 10px;
+    padding-top: 4rem;
   }
 
   .submenu {
@@ -306,7 +310,7 @@
 
   .close-icon {
     /* position: absolute; */
-    top: 15px;
+    top: 25px;
     right: 22px;
     cursor: pointer;
     color: #000000;
@@ -314,5 +318,38 @@
     height: 30px;
     background-color: whitesmoke !important;
     font-size: 4.5rem !important;
+  }
+  .about-us {
+    position: relative;
+    color: #555; /* Default text color for "About Us" */
+    padding: 15px; /* Add extra padding for space around lines */
+  }
+
+  .about-us::before,
+  .about-us::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: white; /* Line color (above and below) */
+  }
+
+  .about-us::before {
+    top: 0; /* Position above */
+  }
+
+  .about-us::after {
+    bottom: 0; /* Position below */
+  }
+  .special-menu-item {
+    font-size: 24px;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
   }
 }

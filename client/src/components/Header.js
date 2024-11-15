@@ -61,7 +61,7 @@ const Header = ({ menuOpen, toggleMenu }) => {
               onMouseEnter={() => toggleSubmenu(1)}
               onMouseLeave={() => toggleSubmenu(null)}
             >
-              <Link to="/destinations">DESTINATIONS</Link>
+              <Link to="/">DESTINATIONS</Link>
               <span className="arrow">&#8250;</span>
               {activeSubmenu === 1 && (
                 <ul className="submenu">
