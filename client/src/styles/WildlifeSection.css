@@ -293,7 +293,7 @@
 @media (max-width: 768px) {
   .who-we-are {
     margin-left: 0;
-    margin-top: 23rem;
+    margin-top: 35rem;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -333,9 +333,9 @@
   }
 }
 /* mobile responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 420px) {
   .who-we-are {
-    margin-top: 13rem;
+    margin-top: 16rem;
   }
   .wildlife-section.image-wrapper {
     display: flex;
@@ -462,7 +462,6 @@
   line-height: 1.2;
   color: #fff;
   align-self: flex-end;
-  padding-bottom: calc(9 * clamp(17px, 1vw + 0.5rem, 32px));
 }
 
 .testimonial-image {
