@@ -417,7 +417,6 @@
   .slide-content .view-button {
     background-color: transparent;
     transform: translateY(10px);
-    transform: translatex(-10px);
   }
 }
 
@@ -462,6 +461,5 @@
   .slide-content .view-button {
     background-color: transparent;
     transform: translateY(10px);
-    transform: translatex(-90px);
   }
 }
