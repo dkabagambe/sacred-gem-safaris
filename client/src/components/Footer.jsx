@@ -57,6 +57,7 @@ const Footer = () => {
             <li>Our impact</li>
           </ul>
         </div>
+        <div className="horizontal-lines"></div>
       </div>
 
       {/* Social Links, Newsletter, etc. */}

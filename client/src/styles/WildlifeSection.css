@@ -110,6 +110,7 @@
   height: 90vh;
   object-fit: cover;
 }
+/* Adjusts slide layout for tablet sizes */
 @media (max-width: 768px) {
   .accordion {
     width: 100%;
@@ -143,6 +144,60 @@
     font-family: var(--font-heading);
     font-weight: 500;
     line-height: clamp(1.5, 1.6, 1.8);
+  }
+}
+/* Adjusts slide layout for mobile sizes */
+@media (max-width: 420px) {
+  .accordion {
+    width: 100%;
+  }
+  .wildlife-section {
+    gap: 5px;
+    padding: 15px !important;
+  }
+  .accordion-content img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .accordion-arrow {
+    font-size: 1.8rem;
+    width: 130px;
+    height: 130px;
+  }
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    color: whitesmoke;
+    text-transform: uppercase;
+    background-color: #232c33;
+    transition: background-color 0.3s ease;
+    font-size: clamp(16px, 1vw + 0.5rem, 32px);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    line-height: clamp(1.5, 1.6, 1.8);
+  }
+  .accordion-content {
+    padding: 10px;
+  }
+  .accordion-content h3 {
+    font-size: clamp(60px, 3vw + 1rem, 90px);
+    font-family: var(--font-heading);
+    line-height: 1.5; /* Adjust as needed */
+    margin-top: calc(0.9 * clamp(50px, 2vw + 1rem, 65px));
+  }
+  .accordion-content p {
+    font-size: clamp(12px, 5vw, 20px);
+    margin-top: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+  }
+  .accordion-content img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
   }
 }
 /* Impact section */
@@ -232,13 +287,13 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 32rem;
+  margin-top: 35rem;
 }
-/* Mobile responsiveness */
+/* tablet responsiveness */
 @media (max-width: 768px) {
   .who-we-are {
     margin-left: 0;
-    margin-top: 10rem;
+    margin-top: 23rem;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -264,12 +319,44 @@
     object-fit: cover;
   }
 
-  .accordion-content {
-    padding: 8px;
+  .impact-title,
+  .about-title {
+    font-size: clamp(60px, 3vw + 1rem, 90px);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+  }
+  .impact-description,
+  .about-description {
+    line-height: 1.7;
+  }
+}
+/* mobile responsiveness */
+@media (max-width: 768px) {
+  .who-we-are {
+    margin-top: 13rem;
+  }
+  .wildlife-section.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
 
-  .accordion-image {
-    width: 100%; /* Full-width images on mobile */
+  .wildlife-section.top-image-container,
+  .wildlife-section.bottom-image-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .wildlife-section.bottom-image-container {
+    top: 0;
+    width: 100%;
+  }
+  .wildlife-section.top-image {
+    width: 100%;
+    object-fit: cover;
   }
 
   .impact-title,
@@ -388,6 +475,7 @@
   .services-section {
     padding: 15px !important;
     margin-top: calc(2.5 * clamp(17px, 1vw + 0.5rem, 32px));
+    gap: 5px;
   }
 
   .testimonial-section {
@@ -395,10 +483,27 @@
     height: 100% !important;
     width: 100%;
   }
-  /* .testimonial-quote {
-    margin-top: calc(6 * clamp(17px, 1vw + 0.5rem, 32px));
+}
+@media (max-width: 420px) {
+  .services-section {
+    padding: 15px !important;
+    margin-top: calc(2.5 * clamp(17px, 1vw + 0.5rem, 32px));
+    gap: 5px;
   }
+
+  .testimonial-section {
+    padding: 15px !important;
+    height: 100% !important;
+    width: 100%;
+  }
+  .testimonial-section h3 {
+    margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+  }
+  .testimonial-quote {
+    margin-bottom: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
+  }
+
   .testimonial-author {
-    padding-bottom: calc(6 * clamp(17px, 1vw + 0.5rem, 32px));
-  } */
+    padding-bottom: calc(3 * clamp(17px, 1vw + 0.5rem, 32px));
+  }
 }
