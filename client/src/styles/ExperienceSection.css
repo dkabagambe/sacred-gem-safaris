@@ -143,7 +143,7 @@
   text-decoration: none;
 }
 /* tablet styles */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .experience-content {
     background-color: var(--dark-gray);
     height: 100%;
@@ -335,7 +335,7 @@
 }
 
 /* Mobile View */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .birding-section {
     display: flex;
     justify-content: center;
@@ -402,7 +402,7 @@
 }
 
 /* Responsive Design tablet */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .why-travel-section {
     width: 100%;
     gap: 5px;
