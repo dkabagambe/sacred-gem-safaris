@@ -336,7 +336,7 @@
 
 /* Description */
 .slide-content p {
-  width: 90%;
+  width: 75%;
   font-family: var(--font-primary);
   font-weight: 300;
   font-size: clamp(10px, 5vw, 18px);
