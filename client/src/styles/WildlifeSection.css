@@ -147,7 +147,7 @@
   }
 }
 /* Adjusts slide layout for mobile sizes */
-@media (max-width: 420px) {
+@media (max-width: 479px) {
   .accordion {
     width: 100%;
   }
@@ -333,7 +333,7 @@
   }
 }
 /* mobile responsiveness */
-@media (max-width: 420px) {
+@media (max-width: 479px) {
   .who-we-are {
     margin-top: 16rem;
   }
@@ -483,7 +483,7 @@
     width: 100%;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 479px) {
   .services-section {
     padding: 15px !important;
     margin-top: calc(2.5 * clamp(17px, 1vw + 0.5rem, 32px));

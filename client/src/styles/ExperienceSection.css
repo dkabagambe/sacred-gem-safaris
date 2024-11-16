@@ -197,7 +197,7 @@
 }
 
 /* mobile styles */
-@media (max-width: 420px) {
+@media (max-width: 479px) {
   .experience-content {
     background-color: var(--dark-gray);
     height: 100%;
@@ -413,7 +413,7 @@
   }
 }
 /* Responsive Design tablet */
-@media (max-width: 420px) {
+@media (max-width: 479px) {
   .why-travel-section {
     width: 100%;
     gap: 5px;

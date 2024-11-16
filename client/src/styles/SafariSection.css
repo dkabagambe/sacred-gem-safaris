@@ -241,7 +241,7 @@
   } */
 }
 /* Media Queries */
-@media (max-width: 420px) {
+@media (max-width: 479px) {
   .safari-sections {
     margin-top: -4rem;
   }
@@ -421,7 +421,7 @@
 }
 
 /* Adjusts slide layout for mobile sizes */
-@media (max-width: 420px) {
+@media (max-width: 479px) {
   .slider-container {
     height: 100%;
     width: 100%;
