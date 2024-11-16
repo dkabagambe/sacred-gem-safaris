@@ -427,7 +427,8 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  align-items: center;
+  height: 90vh;
   gap: 10px;
   filter: brightness(0.9);
 }
