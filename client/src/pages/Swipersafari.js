@@ -12,22 +12,23 @@ const SectionSlider = () => {
   return (
     <div className="slider-container">
       <Swiper
-        ref={swiperRef} // Attach the reference here
+        ref={swiperRef}
         spaceBetween={10}
-        slidesPerView={1}
-        centeredSlides={true}
         loop={true}
-        initialSlide={1} // Set the middle slide as the initial slide
+        initialSlide={1}
         autoplay={{
-          delay: 3000, // Auto-play delay (3 seconds)
-          disableOnInteraction: false, // Continue auto-play after user interaction
+          delay: 3000,
+          disableOnInteraction: false,
         }}
         breakpoints={{
-          768: {
-            slidesPerView: 2,
-          },
           1024: {
             slidesPerView: 3,
+          },
+          767: {
+            slidesPerView: 2,
+          },
+          0: {
+            slidesPerView: 1, // Optional: for mobile screens
           },
         }}
         className="swiper-container"
