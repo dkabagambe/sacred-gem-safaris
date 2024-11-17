@@ -301,7 +301,11 @@
 .text-content p:last-child {
   margin-bottom: calc(1 * clamp(50px, 2vw + 1rem, 65px));
 }
-
+@media screen and (min-width: 1024px) {
+  .text-content {
+    margin-top: 53%;
+  }
+}
 /* Tablet View */
 @media screen and (max-width: 768px) {
   /* New section styles */
