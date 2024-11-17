@@ -50,10 +50,10 @@
 
 .slider-caption {
   position: absolute;
-  bottom: 50%;
+  bottom: 30%;
   left: 35%;
   text-transform: uppercase;
-  font-size: clamp(20px, 1.5vw + 1rem, 35px);
+  font-size: clamp(20px, 1vw + 1rem, 35px);
   font-family: var(--font-primary);
   font-weight: 500;
   line-height: 1.5; /* Adjust as needed */

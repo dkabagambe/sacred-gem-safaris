@@ -16,7 +16,7 @@
   text-align: center;
   color: white;
   padding: 10px;
-  padding-top: 25%;
+  padding-top: 26%;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -33,13 +33,13 @@
 
 .hero-heading {
   /* letter-spacing: 5px; */
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   max-width: 100%;
   padding: auto 0;
   font-size: clamp(100px, 3vw + 1rem, 115px);
   font-family: var(--font-heading);
   font-weight: 500;
-  line-height: 1.2; /* Adjusted for better readability */
+  line-height: 1.1; /* Adjusted for better readability */
 }
 
 .hero-line {
@@ -124,10 +124,11 @@
     font-size: 1.5rem;
     width: 100%;
     font-weight: 800;
+    margin-top: 5%;
   }
 
   .hero-heading {
-    margin-top: calc(0.8 * clamp(30px, 2vw + 1rem, 65px));
+    margin-top: calc(0.2 * clamp(30px, 2vw + 1rem, 65px));
     font-size: clamp(50px, 3vw + 1rem, 90px);
     font-weight: 900;
     letter-spacing: normal;
@@ -188,6 +189,7 @@
     margin-top: calc(1.5 * clamp(50px, 2vw + 1rem, 65px));
     width: 100%;
     font-weight: 800;
+    margin-top: 5%;
   }
 
   .hero-heading {
